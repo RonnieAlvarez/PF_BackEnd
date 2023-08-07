@@ -8,7 +8,7 @@
     "test": "mocha test/dao/products.dao.test.js",
     "testchai": "npx mocha test/dao/products.dao.chai.test.js",
     "supertest": "npx mocha test/files/*.js",
-    "start": "nodemon --inspect src/app.js"
+    "start": "node src/app.js"
   },
   "keywords": [],
   "author": "Ronnie Alvarez Castro",
