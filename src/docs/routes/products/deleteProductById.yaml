@@ -1,0 +1,17 @@
+paths:
+  /products/{pid}:
+    delete:
+      summary: Deletes the product with given pid
+      tags:
+        - Products
+      parameters:
+        - name: pid
+          in: pid
+          description: pid parameter takes the product id and mekes a soft deleted
+          required: true
+          type: string
+      responses:
+        "201":
+          description: No additional info attached
+        "404":
+          description: Product not found Error

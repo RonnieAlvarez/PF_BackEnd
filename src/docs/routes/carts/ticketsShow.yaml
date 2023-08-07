@@ -1,0 +1,17 @@
+paths:
+  /api/tickets/showSwagger:
+    get:
+      summary: Gets every ticket available
+      tags:
+        - Carts
+      responses:
+        200:
+          description: Every tickets available.
+        404:
+          description: not tickets found Error
+      example:
+        _id: 64834f14aa79fa68720de0d6
+        code: liorlbjsq4o
+        amount: 280
+        purchaser: rgme81@gmail.com
+        products: []

@@ -1,0 +1,15 @@
+paths:
+  /products/realTimeCarts:
+    get:
+      summary: Gets every Cart available
+      tags:
+        - Carts
+      responses:
+        "200":
+          description: Every cart available.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Products"

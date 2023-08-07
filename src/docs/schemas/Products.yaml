@@ -1,0 +1,29 @@
+# Product
+components:
+  schemas:
+    Products:
+      type: object
+      required:
+        - id
+        - Title
+        - Price
+        - Category
+      properties:
+        id:
+          type: number
+          description: The ID of the product
+        Title:
+          type: string
+          description: The title of the product.
+        Price:
+          type: number
+          description: The price of the product.
+        Category:
+          type: string
+          description: The category of the product
+          default: ropa
+      example:
+        id: 1
+        Title: Pants
+        Price: 45.55
+        Category: Ropa

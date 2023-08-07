@@ -1,0 +1,32 @@
+{{#if message}}
+<div class="container h-100 d-flex flex-column justify-content-center align-items-center">
+    <div class="mt-5  rounded alert alert-warning" role="alert">
+        <p>{{message}}</p>
+    </div>
+
+</div>
+{{else if messagedanger}}
+<div class="container h-100 d-flex flex-column justify-content-center align-items-center">
+    <div class="mt-5  rounded alert alert-danger" role="alert">
+        <p>{{messagedanger}}</p>
+    </div>
+</div>
+{{else if messageSuccess}}
+<div class="container h-100 d-flex flex-column justify-content-center align-items-center">
+    <div class="mt-5  rounded alert alert-success" role="alert">
+        <p>{{messageSuccess}}</p>
+    </div>
+</div>
+{{else}}
+<div class="container h-100 d-flex flex-column justify-content-center align-items-center">
+    <div class="mt-5  rounded alert alert-danger" role="alert">
+        <p>Page not found !!</p>
+    </div>
+</div>
+{{/if}}
+<div class="container my-1 d-flex flex-row sticky-top bg-dark p-2 rounded justify-content-between">
+        <div>
+            <a href="/users" class="btn btn-secondary btn-sm px-2 fw-bold" tabindex="-1" role="button" aria-disabled="true">BACK HOME</a>
+        </div>
+
+</div>

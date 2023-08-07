@@ -1,0 +1,23 @@
+# Product
+components:
+  schemas:
+    Product:
+      type: object
+      required:
+        - pid
+        - _pid
+        - Quantity
+      properties:
+        pid:
+          type: number
+          description: The ID of the product
+        _pid:
+          type: object._id
+          description: The object._id of the product.
+        Quantity:
+          type: number
+          description: The Quantity of the product.
+      example:
+        pid: 1
+        _pid: 647cbfb2393e67c9447b4b20
+        Quantity: 2

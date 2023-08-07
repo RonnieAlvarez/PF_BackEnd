@@ -1,0 +1,58 @@
+<div id="register" class="container bg-info w-50 rounded mt-3 pb-2">
+    <h3 class="text-center text-white pb-1">My eCommerce Register form</h3>
+    <div class="container border border-secondary rounded ">
+        <div id="register-row" class="row justify-content-center align-items-center">
+            <div id="register-column" class="col-md-9">
+                <div id="register-box" class="col-md-12">
+                    <form id="registerForm">
+                        <h3 class="text-center text-light">Register</h3>
+                        <div class="row mb-1">
+                            <label class="col-3 form-label">First name</label>
+                            <input type="text" class="col-4 form-control w-75" name="first_name" id="first_name"
+                                placeholder="Joe" />
+                        </div>
+                        <div class="row my-1">
+                            <label class="col-3 form-label ">Last name</label>
+                            <input type="text" class="col-4  form-control w-75" name="last_name" id="last_name"
+                                placeholder="Derek" />
+                        </div>
+                        <div class="row my-1 ">
+                            <div class="row mb-1">
+                                <label class="col-3 form-label">Age</label>
+                                <input type="number" class="ms-1 col-4 form-control w-25" name="age" id="age"
+                                    placeholder=21 />
+                            </div>
+                            <div class="row ">
+                                <label for="roll" class="form-label col-3">Roll</label>
+                                <select class="ms-1 col-4 form-control w-25" name="roll" id="roll">
+                                    <optgroup label="Rolls">
+                                        <option value="USER">USER</option>
+                                        <option value="ADMIN">ADMIN</option>
+                                        <option value="PREMIUN">PREMIUN</option>
+                                    </optgroup>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row my-1">
+                            <label class="form-label col-3">Email</label>
+                            <input type="text" class="col-4 form-control w-75" name="email" id="email"
+                                placeholder="abc@mail.com" />
+                        </div>
+                        <div class="row my-1">
+                            <label class="form-label col-3">Password</label>
+                            <input type="password" class="col-4 form-control w-75" name="password" id="password"
+                                placeholder="password" autocomplete="current-password" />
+                        </div>
+                        <div class="form-group d-flex flex-row justify-content-between mt-1 mb-3">
+                            <a href="/users/login" class="btn btn-light rounded mt-2 opacity-75" role="button">Already
+                                Registered</a>
+                            <input class="mt-2 btn btn-primary rounded px-5 fw-bold" type="submit"></input>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="/js/register.js"></script>

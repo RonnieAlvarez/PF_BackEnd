@@ -1,0 +1,57 @@
+<div class="container">
+  {{#if canaddproducts}}
+
+  {{/if}}
+  {{#if etickets}}
+  <div class=" m-auto bg-dark rounded">
+
+    <div class="container d-flex flex-column-reverse mt-2  bg-dark p-2 rounded">
+      <div class="rounded">
+        {{#each etickets}}
+        <table class='w-100 bg-info py-10 mt-2  mx-auto items-center p-2 '>
+          <thead class='bg-light text-start '>
+            <tr>
+              <th ><span class=" ms-2">Code</span></th>
+              <th ><span class=" ms-2">Purchaser</span></th>
+            </tr>
+          </thead>
+          <tbody class='bg-info '>
+            <tr><p class="bg-warning w-100 px-4 my-2 text-center text-light rounded bg-opacity-50">{{lookup this "purchase_datetime"}}</p></tr>
+              <td><span class=" ms-2">{{lookup this "code"}}</span></td>
+              <td><span class=" ms-2">{{lookup this "purchaser"}}</span></td>
+            </tr>
+            <tr>
+              <table class='w-100 bg-info py-10  mx-auto items-center p-2 '>
+                <thead class='bg-success text-white text-start rounded bg-opacity-50'>
+                  <tr>
+                    <th><span class=" ms-2">Product ID </span></th>
+                    <th><span class=" ms-2">Title </span></th>
+                    <th><span class=" ms-2">Quantity  </span></th>
+                    <th><span class=" ms-2">Price </span></th>
+                    <th><span class=" ms-2">sub-total </span></th>
+                  </tr>
+                </thead>
+                <tbody class='bg-info'>
+                  {{#each products}}
+                  <tr>
+                    <td><span class=" ms-2"> {{_pid}}</span></td>
+                    <td><span class=" ms-2"> {{Title}}</span></td>
+                    <td><span class=" ms-2"> {{Quantity}}</span></td>
+                    <td><span class=" ms-2"> {{Price}}</span></td>
+                    <td><span class=" ms-2"> {{Total}}</span></td>
+                  </tr>
+                  {{/each}}
+                  <tr>
+                      <td><span class=" mx-2 fw-bold text-end ">Total: {{lookup this "amount"}}</span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </tr>
+            {{/each}}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  {{/if}}
+</div>

@@ -1,0 +1,9 @@
+# Variables
+.env
+src/config/.env.development
+src/config/.env.production
+
+
+#node_Modules
+node_Modules/
+node_modules

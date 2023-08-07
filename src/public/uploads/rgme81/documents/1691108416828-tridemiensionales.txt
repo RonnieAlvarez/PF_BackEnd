@@ -1,0 +1,42 @@
+Siguiendo el mismo hilo que en el ejemplo anterior, las listas tridimensionales son una extensión de las listas bidimensionales y se utilizan cuando necesitas representar datos con tres dimensiones, como un cubo o una matriz tridimensional.
+
+Para declarar y trabajar con listas tridimensionales en Python, podemos utilizar varias técnicas, similar a lo que hicimos con las listas bidimensionales:
+
+Declarar una lista tridimensional usando listas por comprensión:
+python
+Copy code
+# Declarar una lista tridimensional de tamaño 3x3x3
+n = 3
+cube = [[[0 for k in range(n)] for j in range(n)] for i in range(n)]
+print(cube)
+Esto creará una lista tridimensional de 3x3x3, donde cada elemento se inicializará con 0.
+
+Declarar una lista tridimensional usando el método de multiplicación:
+python
+Copy code
+# Declarar una lista tridimensional de tamaño 3x3x3 usando el método de multiplicación
+n = 3
+cube = [[[0] * n] * n] * n
+print(cube)
+Esta técnica es similar a la que usamos para las listas bidimensionales y nos permite declarar un cubo tridimensional inicializado con 0.
+
+Declarar una lista tridimensional usando NumPy:
+Si queremos trabajar con operaciones más complejas en arrays tridimensionales, es recomendable utilizar el paquete NumPy, diseñado específicamente para trabajar con arrays en Python. Para ello, necesitamos instalar NumPy antes de usarlo. Luego, podemos declarar una lista tridimensional de la siguiente manera:
+python
+Copy code
+import numpy as np
+
+# Declarar un array tridimensional de tamaño 3x3x3 usando NumPy
+i = 3
+j = 3
+k = 3
+new_array = np.zeros((i, j, k))
+print(new_array)
+En este caso, estamos utilizando el método np.zeros() de NumPy para inicializar un array tridimensional de tamaño 3x3x3, lleno de ceros.
+
+Al igual que con las listas bidimensionales, en las listas tridimensionales podemos acceder a los elementos utilizando tres índices: uno para cada dimensión. Por ejemplo, para acceder al elemento en la fila 1, columna 2 y profundidad 0 (fila 0, columna 1 y profundidad 2 en términos de índices), podemos hacerlo de la siguiente manera:
+
+python
+Copy code
+print(cube[1][2][0])
+Es importante practicar y comprender cómo funcionan las listas tridimensionales utilizando bucles for anidados y cómo acceder a los elementos utilizando los tres índices para tener confianza en el manejo de datos con tres dimensiones. Así estarás preparado para responder preguntas sobre listas tridimensionales durante tu examen.

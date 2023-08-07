@@ -1,0 +1,34 @@
+# NewProduct
+components:
+  requestBodies:
+    NewProduct:
+      type: object
+      required:
+        - id
+        - Title
+        - Price
+        - Category
+      properties:
+        id:
+          type: number
+          description: The ID of the product
+        Title:
+          type: string
+          description: The title of the product.
+        Price:
+          type: number
+          description: The price of the product.
+        Category:
+          type: string
+          description: The category of the product
+          default: ropa
+      example:
+        Owner: ADMIN
+        id: 1
+        Title: gorra
+        Description: Gorra para sol
+        Code: gor001
+        Price: 125
+        Status: true
+        Stock: 11
+        Category: Ropa

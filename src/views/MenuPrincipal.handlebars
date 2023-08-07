@@ -1,0 +1,33 @@
+<div class='container d-flex flex-column mt-2 m-2 p-2 m-auto bg-info rounded align-items-center'>
+  <div class='container '>
+    <h1>Welcome to My Ecommerce App</h1>
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Dropdown Menu
+      </button>
+      <ul class="dropdown-menu dropdown-menu-dark">
+        <li><a class="dropdown-item" href="/menu/menu">Products filters</a></li>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+        <li><a class="dropdown-item bg-warning text-black " href="/menu/docUplouder/">UpDocs</a></li>
+        <li><a class="dropdown-item bg-success text-white " href="/menu/imgUplouder/">Up image Profile</a></li>
+        <li><a class="dropdown-item bg-info text-black " href="/menu/proUplouder/">Up Product images</a></li>
+        <li><a class="dropdown-item " href="/apidocs/" target="_blank" id="swagger-link">Swagger Api Docs</a></li>
+        <li><a class="dropdown-item " href="/users/premium/:{{user.email}}">Change Roll</a></li>
+        <li><a class="dropdown-item " href="/menu/logger/">LoggerTest</a></li>
+        <li><a class="dropdown-item " href="/products/realTimeProducts/">Show RealTimeProducts</a></li>
+        <li><a class="dropdown-item " href="/products/mockingProducts/">Mocking Products</a></li>
+        <li><a class="dropdown-item " href="/products/realTimeCarts/">RealTimeCarts</a></li>
+        <li><a class="dropdown-item " href="/api/tickets/show">Show eTickets</a></li>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+        <li><a class="dropdown-item" href="/api/chat/ini">RealTimeChat</a></li>
+      </ul>
+    </div>
+    <div class="container d-flex justify-content-end">
+      <h2>user: {{user.name}}</h2>
+    </div>
+  </div>
+</div>

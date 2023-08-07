@@ -1,0 +1,20 @@
+# Product
+components:
+  schemas:
+    Cart:
+      type: object
+      required:
+        - uid
+        - product
+      properties:
+        uid:
+          type: string
+          description: The auto-generated id of the book.
+        products:
+          type: array
+          description: an array of products
+          #ref: '#/components/schemas/Product'
+
+      example:
+        uid: 647cbfb2393e67c9447b4b20
+        products: []

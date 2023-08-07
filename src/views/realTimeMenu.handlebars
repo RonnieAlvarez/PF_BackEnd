@@ -1,0 +1,63 @@
+
+<form class="container mt-1 p-2 m-auto bg-dark">
+  <div class="py-10  px-3 mt-2  mx-auto flex items-center bg-info">
+  
+  <label for="filterselect">Filter By:</label>
+<select id="filterselect" name="filterselect">
+  <option value="Category">Category</option>
+  <option value="Price">Price</option>
+</select>
+
+<label for="filterfor">Filter for:</label>
+<select id="filterfor" name="filterfor">
+   {{#each categories}}
+      <option value="{{this}}">{{this}}</option>
+    {{/each}}
+</select>
+
+
+  <label for="sortselect">Sort By:</label>
+<select id="sortselect" name="sortselect">
+  <option value="Title">Title</option>
+  <option value="Description">Description</option>
+  <option value="Price">Price</option>
+</select>
+  <label for="ascdesc">Asc/Desc:</label>
+<select id="sortorder" name="sortorder">
+  <option value="Asc">Asc</option>
+  <option value="Desc">Desc</option>
+</select>
+  </div>
+
+  <div class="py-10  px-3 mt-2  mx-auto flex items-center bg-info">
+    <label for="limite">Products per page:</label>
+    <input type="number" id="limit" name="limit" min="1" max="100" value=10  >
+  </div>
+
+  <div class="py-10 px-3 mt-2  mx-auto flex items-center bg-info">
+
+    <label for="cantidad">Initial Page:</label>
+    <input type="number" id="pages" name="pages" min="1" max="100" value=1 >
+  </div>
+
+  <button class="btn btn-info mt-5 btn-sm rounded"  type="submit">Generate URL</button>
+</form>
+
+<script>
+  const form = document.querySelector('form');
+  form.addEventListener('submit', (event) => {
+    event.preventDefault();
+    const limit = form.elements.limit.value ?? 10
+    const page = form.elements.pages.value ?? 1
+    let sort = form.elements.sortselect.value ?? 'Price'
+    let filterselect = form.elements.filterselect.value 
+    let filterfor = form.elements.filterfor.value
+    let filterstring =`${filterselect}:${filterfor}`
+    const sortorder = form.elements.sortorder.value
+    if (sortorder ==='Desc'){
+      sort=`-${sort}`
+    }
+    const url = `/menu/products/?page=${page}&limit=${limit}&sort=${sort}&filter=${filterstring}`;
+    window.location = url;
+  });
+</script>
