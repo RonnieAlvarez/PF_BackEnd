@@ -142,10 +142,10 @@ app.use("/products/", auth, authToken, ecommerceExtendRouter.getRouter());
 app.use("/menu/", auth, authToken, emenuExtendRouter.getRouter());
 app.use("/api/chat", auth, authToken, chatExtendRouter.getRouter());
 app.use("/api/tickets", auth, authToken, eticketsExtendRouter.getRouter());
-app.use("/users", usersViewRouter);
+app.use("/users", auth, authToken, usersViewRouter);
 app.use("/api/sessions", sessionsRouter);
 app.use("/api/jwt", jwtRouter);
-app.use("/", usersViewRouter);
+app.use("/", auth, authToken, usersViewRouter);
 
 const swOptions = {
   definition: {
