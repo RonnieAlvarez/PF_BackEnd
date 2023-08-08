@@ -145,7 +145,7 @@ app.use("/api/tickets", auth, authToken, eticketsExtendRouter.getRouter());
 app.use("/users", usersViewRouter);
 app.use("/api/sessions", sessionsRouter);
 app.use("/api/jwt", jwtRouter);
-//app.use("/api", (req, res) => res.render("menuprincipal", { user: req.user }));
+app.use("/", usersViewRouter);
 
 const swOptions = {
   definition: {
