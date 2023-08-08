@@ -42,7 +42,6 @@ router.post("/current", async (req, res) => {
       }
     }
     const tokenUser = new UserDto(user);
-
     const access_token = generateJWToken(tokenUser);
     res.set("Authorization", `Bearer ${access_token}`);
     res.cookie("jwtCookieToken", access_token, {

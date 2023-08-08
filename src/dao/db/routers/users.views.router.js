@@ -62,7 +62,9 @@ const uploadProductImage = multer({ storage: storage("products"), fileFilter: im
 router.get("/favicon.ico", (req, res) => {
   res.sendFile("favicon.ico");
 });
-router.get("/", passportCall("jwt"), authorization(["USER", "ADMIN", "PREMIUM"]), async (req, res) => {
+//router.get("/", passportCall("jwt"), authorization(["USER", "ADMIN", "PREMIUM"]), async (req, res) => {
+
+router.get("/", passportCall("jwt"), (req, res) => {
   res.render("menuprincipal", { user: req.user });
 });
 router.get("/login", async (req, res) => {

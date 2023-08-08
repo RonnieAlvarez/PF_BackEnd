@@ -5,8 +5,8 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "command": "npm dev",
-      "name": "Run npm dev",
+      "command": "npm run dev",
+      "name": "npm Run dev",
       "request": "launch",
       "env": {
         "NODE_TLS_REJECT_UNAUTHORIZED": "1"
