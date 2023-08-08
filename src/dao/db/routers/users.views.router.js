@@ -64,8 +64,8 @@ router.get("/favicon.ico", (req, res) => {
 });
 //router.get("/", passportCall("jwt"), authorization(["USER", "ADMIN", "PREMIUM"]), async (req, res) => {
 
-router.get("/", passportCall("jwt"), (req, res) => {
-  res.render("menuPrincipal", { user: req.user });
+router.get("/", passportCall("jwt"), authorization(["USER", "ADMIN", "PREMIUM"]), (req, res) => {
+  res.render("MenuPrincipal", { user: req.user });
 });
 router.get("/login", async (req, res) => {
   res.render("login");
