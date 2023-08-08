@@ -1,6 +1,6 @@
 import { Router } from "express";
 import userModel from "../models/ecommerce.model.js";
-import { isValidPassword } from "../../../utils.js";
+import { isValidPassword, passportCall } from "../../../utils.js";
 import { generateJWToken } from "../../../utils.js";
 import config from "../../../config/config.js";
 import UserDto from "../../DTOs/user.Dto.js";
