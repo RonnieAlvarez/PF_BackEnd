@@ -42,13 +42,15 @@ export async function getmenuProducts(req, res) {
     const index = filter.indexOf(separator);
     const key = filter.slice(0, index);
     const value = filter.slice(index + 1);
+    //const baseUrl = `${req.protocol}://${req.get("host")}${req.originalUrl}`;
+    const baseUrl = `${req.protocol}://${req.get("host")}`;
     query[key] = value;
     const products = await ProductModel.paginate(query, { page, limit, sort, sortorder, lean: true }, { deletedAt: { $exists: false } });
     const nextpage = parseInt(products.nextPage) ? parseInt(products.nextPage) : 1;
     const prevpage = parseInt(products.prevPage) ? parseInt(products.prevPage) : 1;
-    const productsprevLink = `http://localhost:${localPort}/menu/products/?page=${prevpage}&limit=${limit}&sort=${sort}&filter=${filter}`;
-    const productsnextLink = `http://localhost:${localPort}/menu/products/?page=${nextpage}&limit=${limit}&sort=${sort}&filter=${filter}`;
-    const productHomeLink = `http://localhost:${localPort}/menu/menu`;
+    const productsprevLink = `${baseUrl}/menu/products/?page=${prevpage}&limit=${limit}&sort=${sort}&filter=${filter}`;
+    const productsnextLink = `${baseUrl}/menu/products/?page=${nextpage}&limit=${limit}&sort=${sort}&filter=${filter}`;
+    const productHomeLink = `${baseUrl}/menu/menu`;
     if (!products.docs) {
       return res.send("<p>No products found</p>");
     }

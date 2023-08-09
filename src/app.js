@@ -145,7 +145,7 @@ app.use("/api/tickets", auth, authToken, eticketsExtendRouter.getRouter());
 app.use("/users", usersViewRouter);
 app.use("/api/sessions", sessionsRouter);
 app.use("/api/jwt", jwtRouter);
-app.use("/", (res) => {
+app.use("/", (req, res) => {
   res.redirect("/users/login");
 });
 
