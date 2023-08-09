@@ -2888,3 +2888,25 @@ undefined en undefined - at 24/6/2023 - 09:49:54
 [8/8/2023-18:22:18] - Midleware file. Level: info GET en /users/logout - at 8/8/2023 - 18:22:18
 [8/8/2023-18:22:19] - Midleware file. Level: info GET en /users/login - at 8/8/2023 - 18:22:19
 [8/8/2023-18:22:19] - Midleware file. Level: info GET en /js/loginjwt.js - at 8/8/2023 - 18:22:19
+[8/8/2023-21:03:30] - Midleware file. Level: info GET en / - at 8/8/2023 - 21:03:30
+[8/8/2023-21:03:30] - Midleware file. Level: info GET en /users/login - at 8/8/2023 - 21:03:30
+[8/8/2023-21:03:31] - Midleware file. Level: info GET en /js/loginjwt.js - at 8/8/2023 - 21:03:31
+[8/8/2023-21:03:38] - Midleware file. Level: info POST en /api/jwt/current - at 8/8/2023 - 21:03:38
+[8/8/2023-21:03:38] - Midleware file. Level: info GET en /users - at 8/8/2023 - 21:03:38
+[8/8/2023-21:03:43] - Midleware file. Level: info GET en /menu/menu - at 8/8/2023 - 21:03:43
+[8/8/2023-21:03:43] - [8/8/2023-21:03:43] - Logger Info : policies: USER,ADMIN,PREMIUM -user: USER url: /menu. 
+[8/8/2023-21:04:00] - Midleware file. Level: info GET en /menu/products/?page=1&limit=10&sort=Title&filter=Category:Ropa - at 8/8/2023 - 21:04:00
+[8/8/2023-21:04:00] - [8/8/2023-21:04:00] - Logger Info : policies: USER,ADMIN,PREMIUM -user: USER url: /products/?page=1&limit=10&sort=Title&filter=Category:Ropa. 
+[8/8/2023-21:04:17] - Midleware file. Level: info GET en /menu/products/?page=1&limit=10&sort=Title&filter=Category:Automotive - at 8/8/2023 - 21:04:17
+[8/8/2023-21:04:17] - [8/8/2023-21:04:17] - Logger Info : policies: USER,ADMIN,PREMIUM -user: USER url: /products/?page=1&limit=10&sort=Title&filter=Category:Automotive. 
+[8/8/2023-21:04:32] - Midleware file. Level: info GET en /menu/products/?page=1&limit=10&sort=Title&filter=Category:Automotive - at 8/8/2023 - 21:04:32
+[8/8/2023-21:04:32] - [8/8/2023-21:04:32] - Logger Info : policies: USER,ADMIN,PREMIUM -user: USER url: /products/?page=1&limit=10&sort=Title&filter=Category:Automotive. 
+[8/8/2023-21:04:36] - Midleware file. Level: info GET en /menu/menu - at 8/8/2023 - 21:04:36
+[8/8/2023-21:04:36] - [8/8/2023-21:04:36] - Logger Info : policies: USER,ADMIN,PREMIUM -user: USER url: /menu. 
+[8/8/2023-21:04:43] - Midleware file. Level: info GET en /menu/products/?page=1&limit=10&sort=Title&filter=Category:Games - at 8/8/2023 - 21:04:43
+[8/8/2023-21:04:43] - [8/8/2023-21:04:43] - Logger Info : policies: USER,ADMIN,PREMIUM -user: USER url: /products/?page=1&limit=10&sort=Title&filter=Category:Games. 
+[8/8/2023-21:04:47] - Midleware file. Level: info GET en /menu/menu - at 8/8/2023 - 21:04:47
+[8/8/2023-21:04:47] - [8/8/2023-21:04:47] - Logger Info : policies: USER,ADMIN,PREMIUM -user: USER url: /menu. 
+[8/8/2023-21:04:50] - Midleware file. Level: info GET en /users/logout - at 8/8/2023 - 21:04:50
+[8/8/2023-21:04:50] - Midleware file. Level: info GET en /users/login - at 8/8/2023 - 21:04:50
+[8/8/2023-21:04:51] - Midleware file. Level: info GET en /js/loginjwt.js - at 8/8/2023 - 21:04:51
