@@ -95,12 +95,12 @@ app.use(passport.session()); //allow passport to use "express-session"
 /*for personal use. This code is creating a middleware function that logs the HTTP method and URL of every incoming
 request to the server. It then calls the `next()` function to pass control to the next middleware
 function in the chain. */
-app.use(function (req, res, next) {
-  if (config.environment !== "production") {
-    console.log("%s %s", req.method, req.url);
-    next();
-  }
-});
+// app.use(function (req, res, next) {
+//   if (config.environment !== "production") {
+//     console.log("%s %s", req.method, req.url);
+//     next();
+//   }
+// });
 
 /* The code `app.use(function (req, res, next) { ... })` is creating a middleware function that checks
 if the user is authenticated. */

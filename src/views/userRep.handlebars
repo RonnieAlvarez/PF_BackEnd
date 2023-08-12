@@ -1,0 +1,31 @@
+{{#if usersa}}
+<div class="container m-auto bg-dark rounded ">
+    <div class="container d-flex flex-column-reverse mt-2  bg-dark p-2 rounded ">
+        <div class="rounded">
+            <table class='w-100 bg-info py-10 mt-2  mx-auto items-center p-2 rounded'>
+                <thead class='bg-light text-start rounded'>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Last Access</th>
+                        <th>Change Roll</th>
+                        <th>Delete User</th>
+                    </tr>
+                </thead>
+                <tbody class='bg-info rounded'>
+
+                    {{#each usersa}}
+                    <tr>
+                        <td><span class=" mx-2">{{this.name}}</span></td>
+                        <td><span class=" mx-2">{{this.email}}</span></td>
+                        <td><span class=" mx-2">{{this.last_connection}}</span></td>
+                        <td><span class=" mx-2"><a href="/users/premium/:{{this.email}}">🖇️</a></span></td>
+                        <td><span class=" mx-2"><a href="/users/deleteInactiveUser/:{{this.email}}">🗑️</a></span></td>
+                    </tr>
+                    {{/each}}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+{{/if}}

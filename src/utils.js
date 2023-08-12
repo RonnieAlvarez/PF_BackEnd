@@ -4,6 +4,7 @@ import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
 import passport from "passport";
 import config from "./config/config.js";
+import UserDto from "./dao/DTOs/user.Dto.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -59,7 +60,7 @@ export const passportCall = (strategy) => {
       if (!user) {
         return res.status(401).redirect("/login");
       }
-      req.user = user;
+      req.user = new UserDto(user);
       next();
     })(req, res, next);
   };
@@ -71,7 +72,8 @@ export const passportCall = (strategy) => {
  */
 export const authorization = (roll) => {
   return async (req, res, next) => {
-    const userRole = req.user.roll.toUpperCase();
+    let userRole = req.user.roll;
+    userRole = String(userRole).toUpperCase();
     const allowedRoles = roll.map((elementos) => {
       return elementos.toUpperCase();
     });

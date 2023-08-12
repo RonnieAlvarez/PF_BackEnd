@@ -20,7 +20,8 @@ export async function deleteInactiveUsers(req, res) {
       cutoffDate.setDate(cutoffDate.getDate() - 2);
       const listUsersToRemove = await userModel.find({ last_connection: { $lt: cutoffDate } }).lean();
       for (const user of listUsersToRemove) {
-        sendEmails(user, req, res);
+        subject = "User was deleted from eCommerce shop database for inactivity account";
+        sendEmails(user, subject, req, res);
       }
       await userModel.deleteMany({ last_connection: { $lt: cutoffDate } });
       return true;
@@ -34,7 +35,36 @@ export async function deleteInactiveUsers(req, res) {
   }
 }
 
-function sendEmails(user, req, res) {
+export async function deleteInactiveUser(req, res) {
+  try {
+    if (req.user.roll == "ADMIN") {
+      let { email } = req.params;
+      email = email.slice(1);
+      const cutoffDate = new Date();
+      cutoffDate.setDate(cutoffDate.getDate() - 2);
+      const user = await userModel.findOne({ email: email }).lean();
+      subject = "User was deleted from eCommerce shop database for inactivity account";
+      sendEmails(user, subject, req, res);
+      //  }
+      try {
+        //  process.env.NODE_TLS_REJECT_UNAUTHORIZED = "1";
+        await userModel.deleteOne({ email: email });
+        //  res.status(400).render("nopage", { messagedanger: `User notifyed and erased fron database !!` });
+      } catch (error) {
+        res.status(400).render("nopage", { messagedanger: `User not found` });
+      }
+      //  return true;
+    } else {
+      (req, res) => {
+        res.status(400).render("nopage", { messagedanger: `User roll cant not delete Users !!` });
+      };
+    }
+  } catch (error) {
+    throw new Error(error.message);
+  }
+}
+
+function sendEmails(user, subject, req, res) {
   try {
     process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
 
@@ -61,11 +91,11 @@ function sendEmails(user, req, res) {
     const mailOptions = {
       from: "eCommerce shop 🛒 " + config.GOOGLE_CLIENT_EMAIL,
       to: email,
-      subject: "User deleted from eCommerce shop for inactivity account",
+      subject: `${subject}`,
       html: ` 
     <div style="background-color: #0DCAF0; height:200px; border: 2px solid darkgrey; border-radius: 30px; padding: 30px; text-align: center;">
       <h1>User Deleted</h1>
-      <h3 style="font-weight: bold;margin-botton:20px;">Your User was deleted from eCommerce database for inactive account
+      < style="font-weight: bold;margin-botton:20px;"> ${subject}
        <strong></h3><br>
        <h2><a href='${url}'>To go back</a></strong></h2><br>
     </div>
@@ -75,7 +105,6 @@ function sendEmails(user, req, res) {
     const sendMail = async () => {
       await transport.sendMail(mailOptions);
     };
-    process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
     sendMail();
   } catch (error) {
     return (req, res) => {
@@ -83,29 +112,3 @@ function sendEmails(user, req, res) {
     };
   }
 }
-
-/* This is a class that provides methods for interacting with a user model, including getting all
-users, saving a user, finding a user by username, and updating a user. */
-// export default class UserService {
-//   constructor() {}
-//   getAll = async () => {
-//     let users = await userModel.find();
-//     return users.map((user) => user.toObject());
-//   };
-//   save = async (user) => {
-//     let result = await userModel.create(user);
-//     return result;
-//   };
-//   saveUser = async (user) => {
-//     let result = await userModel.save(user);
-//     return result;
-//   };
-//   findByUsername = async (username) => {
-//     const result = await userModel.findOne({ email: username });
-//     return result;
-//   };
-//   update = async (filter, value) => {
-//     let result = await userModel.updateOne(filter, value);
-//     return result;
-//   };
-// }

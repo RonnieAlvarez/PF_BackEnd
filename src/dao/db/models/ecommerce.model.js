@@ -154,7 +154,7 @@ const UserSchema = new mongoose.Schema(
     first_name: String,
     last_name: String,
     email: { type: String, unique: true },
-    age: Number,
+    age: { type: Number, default: 21 },
     password: String,
     loggedBy: String,
     resetPasswordToken: String,
@@ -166,7 +166,7 @@ const UserSchema = new mongoose.Schema(
       enum: ["USER", "ADMIN", "PREMIUM"],
     },
     date: {
-      type: String,
+      type: Date,
       default: Date.now,
       validate: {
         validator: function (value) {

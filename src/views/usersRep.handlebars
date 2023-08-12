@@ -1,0 +1,36 @@
+{{#if usersa}}
+<div class="container m-auto bg-dark rounded ">
+  <div class="container d-flex flex-column-reverse mt-2  bg-dark p-2 rounded ">
+    <div class="rounded">
+      <table class='w-100 bg-info py-10 mt-2  mx-auto items-center p-2 rounded'>
+        <thead class='bg-light text-start rounded'>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Age</th>
+            <th>Status</th>
+            <th>Last Connection</th>
+          </tr>
+        </thead>
+        <tbody class='bg-info rounded'>
+
+          {{#each usersa}}
+          {{#if this.status}}
+          <tr class="bg-success fw-bold bg-opacity-50">
+            {{else}}
+          <tr>
+            {{/if}}
+            <td><span class=" mx-2">{{this.name}}</span></td>
+            <td><span class=" mx-2">{{this.email}}</span></td>
+            <td><span class=" mx-2">{{this.age}}</span></td>
+            <td><span class=" mx-2">{{this.status}}</span></td>
+            <td><span class=" mx-2">{{this.last_connection}}</span>
+            </td>
+          </tr>
+          {{/each}}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+{{/if}}

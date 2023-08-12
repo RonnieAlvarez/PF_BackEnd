@@ -3,17 +3,19 @@
     <h1>Welcome to My Ecommerce App</h1>
   </div>
   <div class='container d-flex justify-content-between'>
+
     <div class="column">
       <div class="dropdown">
         <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Utilities Menu
+          Products Menu
         </button>
         <ul class="dropdown-menu dropdown-menu-dark">
-          <li><a class="dropdown-item  " href="/menu/docUplouder/">UpDocs</a></li>
-          <li><a class="dropdown-item  " href="/menu/imgUplouder/">Up image Profile</a></li>
+          <li><a class="dropdown-item" href="/menu/menu">Products filters</a></li>
+          <li><a class="dropdown-item " href="/products/realTimeProducts/">Show RealTimeProducts</a></li>
+          <li><a class="dropdown-item " href="/products/mockingProducts/">Mocking Products</a></li>
+          <li><a class="dropdown-item " href="/products/realTimeCarts/">RealTimeCarts</a></li>
+          <li><a class="dropdown-item " href="/api/tickets/show">Show eTickets</a></li>
           <li><a class="dropdown-item  " href="/menu/proUplouder/">Up Product images</a></li>
-          <li><a class="dropdown-item " href="/apidocs/" target="_blank" id="swagger-link">Swagger Api Docs</a></li>
-          <li><a class="dropdown-item " href="/menu/logger/">LoggerTest</a></li>
           <li>
             <hr class="dropdown-divider bg-warning text-black">
           </li>
@@ -23,19 +25,36 @@
     <div class="column">
       <div class="dropdown">
         <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Work Menu
+          Users Menu
         </button>
         <ul class="dropdown-menu dropdown-menu-dark">
-          <li><a class="dropdown-item" href="/menu/menu">Products filters</a></li>
           <li><a class="dropdown-item " href="/users/premium/:">Change Roll</a></li>
-          <li><a class="dropdown-item " href="/products/realTimeProducts/">Show RealTimeProducts</a></li>
-          <li><a class="dropdown-item " href="/products/mockingProducts/">Mocking Products</a></li>
-          <li><a class="dropdown-item " href="/products/realTimeCarts/">RealTimeCarts</a></li>
-          <li><a class="dropdown-item " href="/api/tickets/show">Show eTickets</a></li>
+          <li><a class="dropdown-item " href="/users/getAllUsers/">Get All Users</a></li>
+          <li><a class="dropdown-item  " href="/menu/docUplouder/">Up User Docs</a></li>
+          <li><a class="dropdown-item  " href="/menu/imgUplouder/">Up image Profile</a></li>
           <li>
             <hr class="dropdown-divider bg-warning text-black">
           </li>
+          {{#if isAdmin}}
+          <li><a class="dropdown-item bg-warning text-black  " href="/users/deleteInactiveUsers/">Delete Inactive
+              Users</a></li>
+          <li><a class="dropdown-item bg-warning text-black" href="/users/showInactiveUser/">Manage Users</a></li>
+          {{/if}}
+        </ul>
+      </div>
+    </div>
+    <div class="column">
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Utilities Menu
+        </button>
+        <ul class="dropdown-menu dropdown-menu-dark">
           <li><a class="dropdown-item" href="/api/chat/ini">RealTimeChat</a></li>
+          <li><a class="dropdown-item " href="/apidocs/" target="_blank" id="swagger-link">Swagger Api Docs</a></li>
+          <li><a class="dropdown-item " href="/menu/logger/">LoggerTest</a></li>
+          <li>
+            <hr class="dropdown-divider bg-warning text-black">
+          </li>
         </ul>
       </div>
     </div>
