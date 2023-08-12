@@ -3619,3 +3619,52 @@ undefined en undefined - at 24/6/2023 - 09:49:54
 [11/8/2023-18:11:42] - Midleware file. Level: info GET en /users/logout - at 11/8/2023 - 18:11:42
 [11/8/2023-18:11:42] - Midleware file. Level: info GET en /users/login - at 11/8/2023 - 18:11:42
 [11/8/2023-18:11:42] - Midleware file. Level: info GET en /js/loginjwt.js - at 11/8/2023 - 18:11:42
+[11/8/2023-19:00:38] - Midleware file. Level: info GET en /users/login - at 11/8/2023 - 19:00:38
+[11/8/2023-19:00:38] - Midleware file. Level: info GET en /js/loginjwt.js - at 11/8/2023 - 19:00:38
+[11/8/2023-19:00:39] - Midleware file. Level: info GET en /favicon.ico - at 11/8/2023 - 19:00:39
+[11/8/2023-19:00:48] - Midleware file. Level: info POST en /api/jwt/current - at 11/8/2023 - 19:00:48
+[11/8/2023-19:00:48] - Midleware file. Level: info GET en /users - at 11/8/2023 - 19:00:48
+[11/8/2023-19:00:51] - Midleware file. Level: info GET en /users/showInactiveUser/ - at 11/8/2023 - 19:00:51
+[11/8/2023-19:00:55] - Midleware file. Level: info GET en /users/deleteInactiveUser/:Maribel_Connelly@yahoo.com - at 11/8/2023 - 19:00:55
+[11/8/2023-19:00:55] - Midleware file. Level: info GET en /users - at 11/8/2023 - 19:00:55
+[11/8/2023-19:03:29] - Midleware file. Level: info GET en /users/showInactiveUser/ - at 11/8/2023 - 19:03:29
+[11/8/2023-19:03:32] - Midleware file. Level: info GET en /users/deleteInactiveUser/:Maribel_Connelly@yahoo.com - at 11/8/2023 - 19:03:32
+[11/8/2023-19:03:32] - Midleware file. Level: info GET en /users - at 11/8/2023 - 19:03:32
+[11/8/2023-19:04:20] - Midleware file. Level: info GET en /users/showInactiveUser/ - at 11/8/2023 - 19:04:20
+[11/8/2023-19:04:25] - Midleware file. Level: info GET en /users/deleteInactiveUser/:Maribel_Connelly@yahoo.com - at 11/8/2023 - 19:04:25
+[11/8/2023-19:04:25] - Midleware file. Level: info GET en /users - at 11/8/2023 - 19:04:25
+[11/8/2023-19:07:56] - Midleware file. Level: info GET en /users/showInactiveUser/ - at 11/8/2023 - 19:07:56
+[11/8/2023-19:08:00] - Midleware file. Level: info GET en /users/deleteInactiveUser/:Rubye_Will@hotmail.com - at 11/8/2023 - 19:08:00
+[11/8/2023-19:08:27] - Midleware file. Level: info GET en /users - at 11/8/2023 - 19:08:27
+[11/8/2023-19:09:54] - Midleware file. Level: info GET en /users/showInactiveUser/ - at 11/8/2023 - 19:09:54
+[11/8/2023-19:09:58] - Midleware file. Level: info GET en /users/deleteInactiveUser/:Maribel_Connelly@yahoo.com - at 11/8/2023 - 19:09:58
+[11/8/2023-19:10:06] - Midleware file. Level: info GET en /users - at 11/8/2023 - 19:10:06
+[11/8/2023-19:10:32] - Midleware file. Level: info GET en /users/getAllUsers/ - at 11/8/2023 - 19:10:32
+[11/8/2023-19:20:19] - Midleware file. Level: info GET en /users - at 11/8/2023 - 19:20:19
+[11/8/2023-19:20:19] - Midleware file. Level: info GET en /login - at 11/8/2023 - 19:20:19
+[11/8/2023-19:20:19] - Midleware file. Level: info GET en /users/login - at 11/8/2023 - 19:20:19
+[11/8/2023-19:20:19] - Midleware file. Level: info GET en /js/loginjwt.js - at 11/8/2023 - 19:20:19
+[11/8/2023-19:20:29] - Midleware file. Level: info POST en /api/jwt/current - at 11/8/2023 - 19:20:29
+[11/8/2023-19:20:29] - Midleware file. Level: info GET en /users - at 11/8/2023 - 19:20:29
+[11/8/2023-19:20:41] - Midleware file. Level: info GET en /menu/proUplouder/ - at 11/8/2023 - 19:20:41
+[11/8/2023-19:20:41] - [11/8/2023-19:20:41] - Logger Info : policies: USER,ADMIN -user: ADMIN url: /proUplouder/. 
+[11/8/2023-19:20:55] - Midleware file. Level: info POST en /users/premium/:gme81@gmail.com/products - at 11/8/2023 - 19:20:55
+[11/8/2023-19:21:04] - Midleware file. Level: info GET en /users - at 11/8/2023 - 19:21:04
+[11/8/2023-19:21:10] - Midleware file. Level: info GET en /menu/docUplouder/ - at 11/8/2023 - 19:21:10
+[11/8/2023-19:21:10] - [11/8/2023-19:21:10] - Logger Info : policies: USER,ADMIN -user: ADMIN url: /docUplouder/. 
+[11/8/2023-19:21:21] - Midleware file. Level: info POST en /users/premium/:gme81@gmail.com/documents - at 11/8/2023 - 19:21:21
+[11/8/2023-19:22:02] - Midleware file. Level: info GET en /users - at 11/8/2023 - 19:22:02
+[11/8/2023-19:22:09] - Midleware file. Level: info GET en /menu/imgUplouder/ - at 11/8/2023 - 19:22:09
+[11/8/2023-19:22:09] - [11/8/2023-19:22:09] - Logger Info : policies: USER,ADMIN -user: ADMIN url: /imgUplouder/. 
+[11/8/2023-19:22:15] - Midleware file. Level: info POST en /users/premium/:gme81@gmail.com/profile - at 11/8/2023 - 19:22:15
+[11/8/2023-19:22:19] - Midleware file. Level: info GET en /users - at 11/8/2023 - 19:22:19
+[11/8/2023-19:22:22] - Midleware file. Level: info GET en /menu/docUplouder/ - at 11/8/2023 - 19:22:22
+[11/8/2023-19:22:22] - [11/8/2023-19:22:22] - Logger Info : policies: USER,ADMIN -user: ADMIN url: /docUplouder/. 
+[11/8/2023-19:22:32] - Midleware file. Level: info POST en /users/premium/:gme81@gmail.com/documents - at 11/8/2023 - 19:22:32
+[11/8/2023-19:30:04] - Midleware file. Level: info GET en /users - at 11/8/2023 - 19:30:04
+[11/8/2023-19:30:09] - Midleware file. Level: info GET en /menu/docUplouder/ - at 11/8/2023 - 19:30:09
+[11/8/2023-19:30:09] - [11/8/2023-19:30:09] - Logger Info : policies: USER,ADMIN -user: ADMIN url: /docUplouder/. 
+[11/8/2023-19:30:21] - Midleware file. Level: info POST en /users/premium/:gme81@gmail.com/documents - at 11/8/2023 - 19:30:21
+[11/8/2023-19:53:46] - Midleware file. Level: info GET en / - at 11/8/2023 - 19:53:46
+[11/8/2023-19:53:46] - Midleware file. Level: info GET en /users/login - at 11/8/2023 - 19:53:46
+[11/8/2023-19:53:46] - Midleware file. Level: info GET en /js/loginjwt.js - at 11/8/2023 - 19:53:46
