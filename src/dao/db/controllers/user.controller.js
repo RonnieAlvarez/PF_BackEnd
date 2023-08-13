@@ -2,43 +2,43 @@ import { UserModel } from "../models/ecommerce.model.js";
 import config from "../../../config/config.js";
 import nodemailer from "nodemailer";
 import { isValidPassword } from "../../../utils.js";
-import multer from "multer";
-import fs from "fs";
 import bcrypt from "bcrypt";
-import path from "path";
 import __dirname from "../../../utils.js";
 import * as UserService from "../services/users.service.js";
 
+import multer from "multer";
+import fs from "fs";
+import path from "path";
+
 const storage = (folderName) => {
-  try {
-    multer.diskStorage({
-      destination: function (req, file, cb) {
-        let userEmail = req.user.email;
-        userEmail = userEmail.split("@")[0];
+  //  try {
+  return multer.diskStorage({
+    destination: function (req, file, cb) {
+      let userEmail = req.user.email;
+      userEmail = userEmail.split("@")[0];
+      if (!fs.existsSync(`${__dirname}/public/uploads/${userEmail}`)) {
+        fs.mkdir(`${__dirname}/public/uploads/${userEmail}`, (err) => {
+          if (err) throw err;
+          console.log("Folder created");
+        });
+      }
+      if (!fs.existsSync(`${__dirname}/public/uploads/${userEmail}/${folderName}`)) {
+        fs.mkdir(`${__dirname}/public/uploads/${userEmail}/${folderName}`, (err) => {
+          if (err) throw err;
+          console.log("Folder created");
+        });
+      }
 
-        if (!fs.existsSync(`${__dirname}/public/uploads/${userEmail}`)) {
-          fs.mkdir(`${__dirname}/public/uploads/${userEmail}`, (err) => {
-            if (err) throw err;
-            console.log("Folder created");
-          });
-        }
-        if (!fs.existsSync(`${__dirname}/public/uploads/${userEmail}/${folderName}`)) {
-          fs.mkdir(`${__dirname}/public/uploads/${userEmail}/${folderName}`, (err) => {
-            if (err) throw err;
-            console.log("Folder created");
-          });
-        }
-
-        cb(null, `${__dirname}/public/uploads/${userEmail}/${folderName}`);
-      },
-      filename: function (req, file, cb) {
-        const filename = `${Date.now()}-${file.originalname}`;
-        cb(null, filename);
-      },
-    });
-  } catch (error) {
-    return res.status(500).render("nopage", { messagedanger: `${error.message}`, user: req.user });
-  }
+      cb(null, `${__dirname}/public/uploads/${userEmail}/${folderName}`);
+    },
+    filename: function (req, file, cb) {
+      const filename = `${Date.now()}-${file.originalname}`;
+      cb(null, filename);
+    },
+  });
+  // } catch (error) {
+  //   return res.status(500).render("nopage", { messagedanger: `${error.message}`, user: req.user });
+  // }
 };
 
 const docFilter = (req, file, cb) => {
@@ -62,6 +62,17 @@ const imageFilter = (req, file, cb) => {
 export const uploadDocument = multer({ storage: storage("documents"), fileFilter: docFilter });
 export const uploadProfileImage = multer({ storage: storage("profile"), fileFilter: imageFilter });
 export const uploadProductImage = multer({ storage: storage("products"), fileFilter: imageFilter });
+
+export function loadProductsImages() {
+  ulproimgs;
+}
+export function loadProfileImage() {
+  ulimgs;
+}
+
+export function loadUserDocumentation() {
+  uldocs;
+}
 
 /**
  * This JavaScript function handles the forgot password functionality by sending a reset password email
@@ -288,14 +299,54 @@ export async function toggleRoll(req, res) {
   }
 }
 
-export function uploadDocs(req, res) {
-  const email = req.params.email;
-  const files = req.files; // Array of uploaded files
+export async function funlogout(req, res) {
+  try {
+    let randomNumberToAppend = Math.floor(Math.random() * 1000 + 1).toString();
+    let randomIndex = Math.floor(Math.random() * 10 + 1);
+    let hashedRandomNumberToAppend = await bcrypt.hash(randomNumberToAppend, 10);
+    req.token = req.token + hashedRandomNumberToAppend;
+    req.session.user = " ";
+    res.clearCookie("jwtCookieToken");
+    res.setHeader("Clear-Site-Data", '"cookies", "storage"');
+    res.setHeader("Cache-Control", "no-cache, no-store, must-revalidate"); // HTTP 1.1.
+    res.setHeader("Pragma", "no-cache"); // HTTP 1.0.
+    res.setHeader("Expires", "0"); // Proxies.
+    req.session.destroy((error) => {
+      if (error) {
+        return res.status(500).render("nopage", { messagedanger: `${error.message}` });
+      }
+      res.clearCookie("session-id");
+      return res.redirect("/users/login");
+    });
+  } catch (error) {
+    return res.status(500).render("nopage", { messagedanger: `${error.message}`, user: req.user });
+  }
+}
 
-  // Process the uploaded files and update the user's status accordingly
-  // Example: Save the file information to the user's profile in the database
+export async function getAllUsers(req, res) {
+  try {
+    const userList = await UserService.getAll();
+    return userList;
+  } catch (error) {
+    return res.render("nopage", { messagedanger: `${error.message}`, user: req.user });
+  }
+}
 
-  res.json({ message: "Files uploaded successfully!" });
+export async function eraseUsers(req, res) {
+  try {
+    let usersDeleted = await UserService.deleteInactiveUsers(req, res);
+    return usersDeleted;
+  } catch (error) {
+    return res.render("nopage", { messagedanger: `${error.message}`, user: req.user });
+  }
+}
+
+export async function eraseUser(req, res) {
+  try {
+    return await UserService.deleteInactiveUser(req, res);
+  } catch (error) {
+    return res.render("nopage", { messagedanger: `${error.message}`, user: req.user });
+  }
 }
 
 export async function uldocs(req, res) {
@@ -351,55 +402,5 @@ export async function ulproimgs(req, res) {
     return res.status(400).render("nopage", { message: `Product files added successfully.`, user: req.user });
   } catch (error) {
     return res.status(500).render("nopage", { messagedanger: `${error.message}`, user: req.user });
-  }
-}
-
-export async function funlogout(req, res) {
-  try {
-    let randomNumberToAppend = Math.floor(Math.random() * 1000 + 1).toString();
-    let randomIndex = Math.floor(Math.random() * 10 + 1);
-    let hashedRandomNumberToAppend = await bcrypt.hash(randomNumberToAppend, 10);
-    req.token = req.token + hashedRandomNumberToAppend;
-    req.session.user = " ";
-    res.clearCookie("jwtCookieToken");
-    res.setHeader("Clear-Site-Data", '"cookies", "storage"');
-    res.setHeader("Cache-Control", "no-cache, no-store, must-revalidate"); // HTTP 1.1.
-    res.setHeader("Pragma", "no-cache"); // HTTP 1.0.
-    res.setHeader("Expires", "0"); // Proxies.
-    req.session.destroy((error) => {
-      if (error) {
-        return res.status(500).render("nopage", { messagedanger: `${error.message}` });
-      }
-      res.clearCookie("session-id");
-      return res.redirect("/users/login");
-    });
-  } catch (error) {
-    return res.status(500).render("nopage", { messagedanger: `${error.message}`, user: req.user });
-  }
-}
-
-export async function getAllUsers(req, res) {
-  try {
-    const userList = await UserService.getAll();
-    return userList;
-  } catch (error) {
-    return res.render("nopage", { messagedanger: `${error.message}`, user: req.user });
-  }
-}
-
-export async function eraseUsers(req, res) {
-  try {
-    let usersDeleted = await UserService.deleteInactiveUsers(req, res);
-    return usersDeleted;
-  } catch (error) {
-    return res.render("nopage", { messagedanger: `${error.message}`, user: req.user });
-  }
-}
-
-export async function eraseUser(req, res) {
-  try {
-    return await UserService.deleteInactiveUser(req, res);
-  } catch (error) {
-    return res.render("nopage", { messagedanger: `${error.message}`, user: req.user });
   }
 }

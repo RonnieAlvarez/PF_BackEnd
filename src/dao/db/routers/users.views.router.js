@@ -5,16 +5,16 @@ import {
   reset_password,
   postResetPassword,
   toggleRoll,
-  uldocs,
-  ulimgs,
-  ulproimgs,
   funlogout,
-  uploadDocument,
-  uploadProfileImage,
-  uploadProductImage,
   getAllUsers,
   eraseUsers,
   eraseUser,
+  uploadProfileImage,
+  uploadDocument,
+  uploadProductImage,
+  ulproimgs,
+  ulimgs,
+  uldocs,
 } from "../controllers/user.controller.js";
 
 const router = Router();
