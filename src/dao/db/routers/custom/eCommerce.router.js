@@ -1,6 +1,6 @@
 import * as eProductController from "../../controllers/eproducts.controller.js";
 import * as eCartController from "../../controllers/ecarts.controller.js";
-import { authorization } from "../../../../utils.js";
+import { passportCall, authorization } from "../../../../utils.js";
 
 import CustomRouter from "./custom.router.js";
 

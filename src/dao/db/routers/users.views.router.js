@@ -45,10 +45,12 @@ router.get("/getallusers", passportCall("jwt"), authorization(["USER", "ADMIN", 
   let userList = await getAllUsers();
   res.status(400).render("usersRep", { usersa: userList });
 });
-router.get("/deleteInactiveUsers", passportCall("jwt"), authorization(["USER", "ADMIN", "PREMIUM"]), async (req, res) => {
-  eraseUsers(req, res);
-  let userList = await getAllUsers();
-  res.status(400).render("usersRep", { usersa: userList });
+router.post("/dateToDelete", passportCall("jwt"), async (req, res) => {
+  const fechaSeleccionada = req.body.fechaSeleccionada;
+  eraseUsers(req, res, fechaSeleccionada);
+});
+router.get("/deleteInactiveUsers", passportCall("jwt"), authorization(["ADMIN"]), async (req, res) => {
+  return res.render("fecha");
 });
 router.get("/profile", passportCall("jwt"), authorization(["USER", "ADMIN", "PREMIUN"]), (req, res) => {
   res.render("profile", { user: req.user });
@@ -57,7 +59,7 @@ router.get("/showInactiveUser", passportCall("jwt"), authorization(["USER", "ADM
   let userList = await getAllUsers();
   res.status(400).render("userRep", { usersa: userList });
 });
-router.get("/deleteInactiveUser/:email", passportCall("jwt"), authorization(["USER", "ADMIN", "PREMIUM"]), async (req, res) => {
+router.get("/deleteInactiveUser/:email", passportCall("jwt"), authorization(["ADMIN"]), async (req, res) => {
   eraseUser(req, res);
   res.status(400).redirect("/users");
 });
@@ -65,7 +67,7 @@ router.get("/deleteInactiveUser/:email", passportCall("jwt"), authorization(["US
 "/premium/:email" endpoint. When a GET request is made to this endpoint, the `toggleRoll` function
 will be called. The ":email" part of the route is a URL parameter that can be accessed within the
 `toggleRoll` function. */
-router.get("/premium/:email", toggleRoll);
+router.get("/premium", passportCall("jwt"), (req, res) => toggleRoll(req, res));
 
 /* The code is defining a route for uploading documents for a premium user. */
 router.post("/premium/:email/documents", passportCall("jwt"), authorization(["USER", "ADMIN", "PREMIUM"]), uploadDocument.array("files"), uldocs);

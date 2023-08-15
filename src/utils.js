@@ -89,10 +89,11 @@ export const authorization = (roll) => {
   };
 };
 
-export async function sendEmails(user, subject, req, res) {
+export async function sendEmails(req, res, user, subject) {
   try {
     process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
-
+    let issue = subject.split(" ");
+    issue = issue.slice(0, 2).join(" ");
     const transport = nodemailer.createTransport({
       service: "gmail",
       port: 587,
@@ -119,12 +120,12 @@ export async function sendEmails(user, subject, req, res) {
       subject: `${subject}`,
       html: ` 
     <div style="background-color: #0DCAF0; height:200px; border: 2px solid darkgrey; border-radius: 30px; padding: 30px; text-align: center;">
-      <h1>User Deleted</h1>
-      < style="font-weight: bold;margin-botton:20px;"> ${subject}
+      <h1>${issue} Deleted</h1>
+      <h3 style="font-weight: bold;margin-botton:20px;"> ${subject}
        <strong></h3><br>
-       <h2><a href='${url}'>To go back</a></strong></h2><br>
+       <h2><a href='${url}'>Go back to the eCommerce</a></strong></h2><br>
     </div>
-
+    
     `,
     };
     const sendMail = async () => {

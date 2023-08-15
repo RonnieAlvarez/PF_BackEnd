@@ -3947,3 +3947,496 @@ undefined en undefined - at 24/6/2023 - 09:49:54
 [12/8/2023-19:19:04] - Midleware file. Level: info GET en /users/logout - at 12/8/2023 - 19:19:04
 [12/8/2023-19:19:05] - Midleware file. Level: info GET en /users/login - at 12/8/2023 - 19:19:05
 [12/8/2023-19:19:05] - Midleware file. Level: info GET en /js/loginjwt.js - at 12/8/2023 - 19:19:05
+[14/8/2023-16:03:46] - Midleware file. Level: info GET en / - at 14/8/2023 - 16:03:46
+[14/8/2023-16:03:46] - Midleware file. Level: info GET en /users/login - at 14/8/2023 - 16:03:46
+[14/8/2023-16:03:46] - Midleware file. Level: info GET en /js/loginjwt.js - at 14/8/2023 - 16:03:46
+[14/8/2023-16:05:35] - Midleware file. Level: info GET en /users/login - at 14/8/2023 - 16:05:35
+[14/8/2023-16:05:35] - Midleware file. Level: info GET en /js/loginjwt.js - at 14/8/2023 - 16:05:35
+[14/8/2023-16:05:36] - Midleware file. Level: info GET en /favicon.ico - at 14/8/2023 - 16:05:36
+[14/8/2023-16:07:40] - Midleware file. Level: info GET en /users/login - at 14/8/2023 - 16:07:40
+[14/8/2023-16:07:40] - Midleware file. Level: info GET en /js/loginjwt.js - at 14/8/2023 - 16:07:40
+[14/8/2023-16:07:41] - Midleware file. Level: info GET en /favicon.ico - at 14/8/2023 - 16:07:41
+[14/8/2023-16:07:41] - Midleware file. Level: info GET en /users/login - at 14/8/2023 - 16:07:41
+[14/8/2023-16:07:41] - Midleware file. Level: info GET en /js/loginjwt.js - at 14/8/2023 - 16:07:41
+[14/8/2023-16:07:42] - Midleware file. Level: info GET en /favicon.ico - at 14/8/2023 - 16:07:42
+[14/8/2023-16:08:18] - Midleware file. Level: info GET en /users/login - at 14/8/2023 - 16:08:18
+[14/8/2023-16:08:18] - Midleware file. Level: info GET en /js/loginjwt.js - at 14/8/2023 - 16:08:18
+[14/8/2023-16:08:18] - Midleware file. Level: info GET en /favicon.ico - at 14/8/2023 - 16:08:18
+[14/8/2023-16:08:27] - Midleware file. Level: info GET en /users/login - at 14/8/2023 - 16:08:27
+[14/8/2023-16:08:27] - Midleware file. Level: info GET en /js/loginjwt.js - at 14/8/2023 - 16:08:27
+[14/8/2023-16:08:27] - Midleware file. Level: info GET en /favicon.ico - at 14/8/2023 - 16:08:27
+[14/8/2023-16:09:31] - Midleware file. Level: info GET en /users/login - at 14/8/2023 - 16:09:31
+[14/8/2023-16:09:31] - Midleware file. Level: info GET en /js/loginjwt.js - at 14/8/2023 - 16:09:31
+[14/8/2023-16:09:32] - Midleware file. Level: info GET en /favicon.ico - at 14/8/2023 - 16:09:32
+[14/8/2023-16:09:46] - Midleware file. Level: info GET en /users/login - at 14/8/2023 - 16:09:46
+[14/8/2023-16:09:46] - Midleware file. Level: info GET en /js/loginjwt.js - at 14/8/2023 - 16:09:46
+[14/8/2023-16:09:46] - Midleware file. Level: info GET en /favicon.ico - at 14/8/2023 - 16:09:46
+[14/8/2023-16:10:56] - Midleware file. Level: info GET en /users/login - at 14/8/2023 - 16:10:56
+[14/8/2023-16:10:56] - Midleware file. Level: info GET en /js/loginjwt.js - at 14/8/2023 - 16:10:56
+[14/8/2023-16:10:56] - Midleware file. Level: info GET en /favicon.ico - at 14/8/2023 - 16:10:56
+[14/8/2023-16:13:05] - Midleware file. Level: info GET en /users/login - at 14/8/2023 - 16:13:05
+[14/8/2023-16:13:05] - Midleware file. Level: info GET en /js/loginjwt.js - at 14/8/2023 - 16:13:05
+[14/8/2023-16:13:06] - Midleware file. Level: info GET en /favicon.ico - at 14/8/2023 - 16:13:06
+[14/8/2023-16:13:07] - Midleware file. Level: info GET en /users/login - at 14/8/2023 - 16:13:07
+[14/8/2023-16:13:07] - Midleware file. Level: info GET en /js/loginjwt.js - at 14/8/2023 - 16:13:07
+[14/8/2023-16:13:07] - Midleware file. Level: info GET en /favicon.ico - at 14/8/2023 - 16:13:07
+[14/8/2023-16:13:15] - Midleware file. Level: info POST en /api/jwt/current - at 14/8/2023 - 16:13:15
+[14/8/2023-16:13:15] - Midleware file. Level: info GET en /users - at 14/8/2023 - 16:13:15
+[14/8/2023-16:13:19] - Midleware file. Level: info GET en /menu/proUplouder/ - at 14/8/2023 - 16:13:19
+[14/8/2023-16:13:19] - [14/8/2023-16:13:19] - Logger Info : policies: USER,ADMIN -user: USER url: /proUplouder/. 
+[14/8/2023-16:13:28] - Midleware file. Level: info POST en /users/premium/:rgme81@gmail.com/products - at 14/8/2023 - 16:13:28
+[14/8/2023-16:13:39] - Midleware file. Level: info GET en /users - at 14/8/2023 - 16:13:39
+[14/8/2023-16:13:43] - Midleware file. Level: info GET en /users/logout - at 14/8/2023 - 16:13:43
+[14/8/2023-16:13:43] - Midleware file. Level: info GET en /users/login - at 14/8/2023 - 16:13:43
+[14/8/2023-16:13:43] - Midleware file. Level: info GET en /js/loginjwt.js - at 14/8/2023 - 16:13:43
+[14/8/2023-16:24:56] - Midleware file. Level: info GET en /users/login - at 14/8/2023 - 16:24:56
+[14/8/2023-16:24:56] - Midleware file. Level: info GET en /js/loginjwt.js - at 14/8/2023 - 16:24:56
+[14/8/2023-16:24:56] - Midleware file. Level: info GET en /favicon.ico - at 14/8/2023 - 16:24:56
+[14/8/2023-16:24:57] - Midleware file. Level: info GET en /users/login - at 14/8/2023 - 16:24:57
+[14/8/2023-16:24:57] - Midleware file. Level: info GET en /js/loginjwt.js - at 14/8/2023 - 16:24:57
+[14/8/2023-16:24:57] - Midleware file. Level: info GET en /favicon.ico - at 14/8/2023 - 16:24:57
+[14/8/2023-16:25:56] - Midleware file. Level: info GET en /users/login - at 14/8/2023 - 16:25:56
+[14/8/2023-16:25:56] - Midleware file. Level: info GET en /js/loginjwt.js - at 14/8/2023 - 16:25:56
+[14/8/2023-16:25:57] - Midleware file. Level: info GET en /favicon.ico - at 14/8/2023 - 16:25:57
+[14/8/2023-16:25:57] - Midleware file. Level: info GET en /users/login - at 14/8/2023 - 16:25:57
+[14/8/2023-16:25:57] - Midleware file. Level: info GET en /js/loginjwt.js - at 14/8/2023 - 16:25:57
+[14/8/2023-16:25:58] - Midleware file. Level: info GET en /favicon.ico - at 14/8/2023 - 16:25:58
+[14/8/2023-16:27:00] - Midleware file. Level: info POST en /api/jwt/current - at 14/8/2023 - 16:27:00
+[14/8/2023-16:27:00] - Midleware file. Level: info GET en /users - at 14/8/2023 - 16:27:00
+[14/8/2023-16:27:07] - Midleware file. Level: info GET en /products/mockingProducts/ - at 14/8/2023 - 16:27:07
+[14/8/2023-16:27:07] - [14/8/2023-16:27:07] - Logger Info : policies: USER,ADMIN,PREMIUM -user: USER url: /mockingProducts/. 
+[14/8/2023-16:27:56] - Midleware file. Level: info GET en /users/logout - at 14/8/2023 - 16:27:56
+[14/8/2023-16:27:57] - Midleware file. Level: info GET en /users/login - at 14/8/2023 - 16:27:57
+[14/8/2023-16:27:57] - Midleware file. Level: info GET en /js/loginjwt.js - at 14/8/2023 - 16:27:57
+[14/8/2023-18:28:09] - Midleware file. Level: info GET en / - at 14/8/2023 - 18:28:09
+[14/8/2023-18:28:09] - Midleware file. Level: info GET en /users/login - at 14/8/2023 - 18:28:09
+[14/8/2023-18:28:09] - Midleware file. Level: info GET en /js/loginjwt.js - at 14/8/2023 - 18:28:09
+[14/8/2023-18:28:19] - Midleware file. Level: info POST en /api/jwt/current - at 14/8/2023 - 18:28:19
+[14/8/2023-18:28:19] - Midleware file. Level: info GET en /users - at 14/8/2023 - 18:28:19
+[14/8/2023-18:29:02] - Midleware file. Level: info GET en /products/realTimeCarts/ - at 14/8/2023 - 18:29:02
+[14/8/2023-18:29:02] - [14/8/2023-18:29:02] - Logger Info : policies: USER,ADMIN,PREMIUM -user: USER url: /realTimeCarts/. 
+[14/8/2023-18:29:14] - Midleware file. Level: info POST en /products/realTimeCarts/add - at 14/8/2023 - 18:29:14
+[14/8/2023-18:29:14] - [14/8/2023-18:29:14] - Logger Info : policies: USER,PREMIUM -user: USER url: /realTimeCarts/add. 
+[14/8/2023-18:29:15] - Midleware file. Level: info GET en /products/realTimeCarts/ - at 14/8/2023 - 18:29:15
+[14/8/2023-18:29:15] - [14/8/2023-18:29:15] - Logger Info : policies: USER,ADMIN,PREMIUM -user: USER url: /realTimeCarts/. 
+[14/8/2023-18:29:23] - Midleware file. Level: info POST en /products/realTimeCarts/add - at 14/8/2023 - 18:29:23
+[14/8/2023-18:29:23] - [14/8/2023-18:29:23] - Logger Info : policies: USER,PREMIUM -user: USER url: /realTimeCarts/add. 
+[14/8/2023-18:29:24] - Midleware file. Level: info GET en /products/realTimeCarts/ - at 14/8/2023 - 18:29:24
+[14/8/2023-18:29:24] - [14/8/2023-18:29:24] - Logger Info : policies: USER,ADMIN,PREMIUM -user: USER url: /realTimeCarts/. 
+[14/8/2023-18:29:32] - Midleware file. Level: info POST en /products/realTimeCarts/purchase - at 14/8/2023 - 18:29:32
+[14/8/2023-18:29:32] - [14/8/2023-18:29:32] - Logger Info : policies: USER,PREMIUM -user: USER url: /realTimeCarts/purchase. 
+[14/8/2023-18:29:32] - Midleware file. Level: info GET en /products/realTimeCarts/ - at 14/8/2023 - 18:29:32
+[14/8/2023-18:29:32] - [14/8/2023-18:29:32] - Logger Info : policies: USER,ADMIN,PREMIUM -user: USER url: /realTimeCarts/. 
+[14/8/2023-18:29:54] - Midleware file. Level: info GET en /users/logout - at 14/8/2023 - 18:29:54
+[14/8/2023-18:29:55] - Midleware file. Level: info GET en /users/login - at 14/8/2023 - 18:29:55
+[14/8/2023-18:29:55] - Midleware file. Level: info GET en /js/loginjwt.js - at 14/8/2023 - 18:29:55
+[14/8/2023-18:46:37] - Midleware file. Level: info POST en /api/jwt/current - at 14/8/2023 - 18:46:37
+[14/8/2023-18:46:37] - Midleware file. Level: info GET en /users - at 14/8/2023 - 18:46:37
+[14/8/2023-18:46:41] - Midleware file. Level: info GET en /api/tickets/show - at 14/8/2023 - 18:46:41
+[14/8/2023-18:46:41] - [14/8/2023-18:46:41] - Logger Info : policies: USER,PREMIUM -user: USER url: /show. 
+[14/8/2023-18:48:07] - Midleware file. Level: info GET en /users - at 14/8/2023 - 18:48:07
+[14/8/2023-18:48:38] - Midleware file. Level: info GET en /products/realTimeCarts/ - at 14/8/2023 - 18:48:38
+[14/8/2023-18:48:38] - [14/8/2023-18:48:38] - Logger Info : policies: USER,ADMIN,PREMIUM -user: USER url: /realTimeCarts/. 
+[14/8/2023-18:48:57] - Midleware file. Level: info POST en /products/realTimeCarts/add - at 14/8/2023 - 18:48:57
+[14/8/2023-18:48:57] - [14/8/2023-18:48:57] - Logger Info : policies: USER,PREMIUM -user: USER url: /realTimeCarts/add. 
+[14/8/2023-18:48:58] - Midleware file. Level: info GET en /products/realTimeCarts/ - at 14/8/2023 - 18:48:58
+[14/8/2023-18:48:58] - [14/8/2023-18:48:58] - Logger Info : policies: USER,ADMIN,PREMIUM -user: USER url: /realTimeCarts/. 
+[14/8/2023-18:49:41] - Midleware file. Level: info GET en /users - at 14/8/2023 - 18:49:41
+[14/8/2023-18:50:16] - Midleware file. Level: info GET en /products/mockingProducts/ - at 14/8/2023 - 18:50:16
+[14/8/2023-18:50:16] - [14/8/2023-18:50:16] - Logger Info : policies: USER,ADMIN,PREMIUM -user: USER url: /mockingProducts/. 
+[14/8/2023-18:52:44] - Midleware file. Level: info GET en /users - at 14/8/2023 - 18:52:44
+[14/8/2023-18:55:32] - Midleware file. Level: info GET en /menu/menu - at 14/8/2023 - 18:55:32
+[14/8/2023-18:55:32] - [14/8/2023-18:55:32] - Logger Info : policies: USER,ADMIN,PREMIUM -user: USER url: /menu. 
+[14/8/2023-18:55:39] - Midleware file. Level: info GET en /menu/products/?page=1&limit=10&sort=Title&filter=Category:Ropa - at 14/8/2023 - 18:55:39
+[14/8/2023-18:55:39] - [14/8/2023-18:55:39] - Logger Info : policies: USER,ADMIN,PREMIUM -user: USER url: /products/?page=1&limit=10&sort=Title&filter=Category:Ropa. 
+[14/8/2023-18:56:33] - Midleware file. Level: info GET en /menu/menu - at 14/8/2023 - 18:56:33
+[14/8/2023-18:56:33] - [14/8/2023-18:56:33] - Logger Info : policies: USER,ADMIN,PREMIUM -user: USER url: /menu. 
+[14/8/2023-18:57:13] - Midleware file. Level: info GET en /users - at 14/8/2023 - 18:57:13
+[14/8/2023-18:57:19] - Midleware file. Level: info GET en /products/realTimeProducts/ - at 14/8/2023 - 18:57:19
+[14/8/2023-18:57:19] - [14/8/2023-18:57:19] - Logger Info : policies: USER,ADMIN,PREMIUM -user: USER url: /realTimeProducts/. 
+[14/8/2023-18:57:21] - Midleware file. Level: info GET en /users - at 14/8/2023 - 18:57:21
+[14/8/2023-18:57:30] - Midleware file. Level: info GET en /users/premium/: - at 14/8/2023 - 18:57:30
+[14/8/2023-18:57:38] - Midleware file. Level: info GET en /users - at 14/8/2023 - 18:57:38
+[14/8/2023-18:57:47] - Midleware file. Level: info GET en /users/premium/: - at 14/8/2023 - 18:57:47
+[14/8/2023-18:57:59] - Midleware file. Level: info GET en /users - at 14/8/2023 - 18:57:59
+[14/8/2023-18:59:06] - Midleware file. Level: info GET en /users/premium/: - at 14/8/2023 - 18:59:06
+[14/8/2023-19:00:02] - Midleware file. Level: info GET en /users/getAllUsers/ - at 14/8/2023 - 19:00:02
+[14/8/2023-19:00:02] - Midleware file. Level: info GET en /login - at 14/8/2023 - 19:00:02
+[14/8/2023-19:00:02] - Midleware file. Level: info GET en /users/login - at 14/8/2023 - 19:00:02
+[14/8/2023-19:00:03] - Midleware file. Level: info GET en /js/loginjwt.js - at 14/8/2023 - 19:00:03
+[14/8/2023-19:00:11] - Midleware file. Level: info POST en /api/jwt/current - at 14/8/2023 - 19:00:11
+[14/8/2023-19:00:11] - Midleware file. Level: info GET en /users - at 14/8/2023 - 19:00:11
+[14/8/2023-19:00:15] - Midleware file. Level: info GET en /users/premium/: - at 14/8/2023 - 19:00:15
+[14/8/2023-19:02:05] - Midleware file. Level: info GET en /users - at 14/8/2023 - 19:02:05
+[14/8/2023-19:02:08] - Midleware file. Level: info GET en /users/premium/: - at 14/8/2023 - 19:02:08
+[14/8/2023-19:02:25] - Midleware file. Level: info GET en /users/premium/: - at 14/8/2023 - 19:02:25
+[14/8/2023-19:02:28] - Midleware file. Level: info GET en /users/premium/: - at 14/8/2023 - 19:02:28
+[14/8/2023-19:02:33] - Midleware file. Level: info GET en /users/logout - at 14/8/2023 - 19:02:33
+[14/8/2023-19:02:33] - Midleware file. Level: info GET en /users/login - at 14/8/2023 - 19:02:33
+[14/8/2023-19:02:33] - Midleware file. Level: info GET en /js/loginjwt.js - at 14/8/2023 - 19:02:33
+[14/8/2023-19:02:39] - Midleware file. Level: info POST en /api/jwt/current - at 14/8/2023 - 19:02:39
+[14/8/2023-19:02:39] - Midleware file. Level: info GET en /users - at 14/8/2023 - 19:02:39
+[14/8/2023-19:02:42] - Midleware file. Level: info GET en /users/premium/: - at 14/8/2023 - 19:02:42
+[14/8/2023-19:02:44] - Midleware file. Level: info GET en /users/logout - at 14/8/2023 - 19:02:44
+[14/8/2023-19:02:44] - Midleware file. Level: info GET en /users/login - at 14/8/2023 - 19:02:44
+[14/8/2023-19:02:44] - Midleware file. Level: info GET en /js/loginjwt.js - at 14/8/2023 - 19:02:44
+[14/8/2023-19:02:50] - Midleware file. Level: info POST en /api/jwt/current - at 14/8/2023 - 19:02:50
+[14/8/2023-19:02:50] - Midleware file. Level: info GET en /users - at 14/8/2023 - 19:02:50
+[14/8/2023-19:03:40] - Midleware file. Level: info GET en /users/premium/: - at 14/8/2023 - 19:03:40
+[14/8/2023-19:04:58] - Midleware file. Level: info GET en /users/logout - at 14/8/2023 - 19:04:58
+[14/8/2023-19:04:58] - Midleware file. Level: info GET en /users/login - at 14/8/2023 - 19:04:58
+[14/8/2023-19:04:58] - Midleware file. Level: info GET en /js/loginjwt.js - at 14/8/2023 - 19:04:58
+[14/8/2023-19:05:01] - Midleware file. Level: info GET en /users/login - at 14/8/2023 - 19:05:01
+[14/8/2023-19:05:01] - Midleware file. Level: info GET en /js/loginjwt.js - at 14/8/2023 - 19:05:01
+[14/8/2023-19:05:01] - Midleware file. Level: info GET en /favicon.ico - at 14/8/2023 - 19:05:01
+[14/8/2023-19:05:08] - Midleware file. Level: info POST en /api/jwt/current - at 14/8/2023 - 19:05:08
+[14/8/2023-19:05:08] - Midleware file. Level: info GET en /users - at 14/8/2023 - 19:05:08
+[14/8/2023-19:05:11] - Midleware file. Level: info GET en /users/premium/:email - at 14/8/2023 - 19:05:11
+[14/8/2023-19:08:15] - Midleware file. Level: info GET en /users/logout - at 14/8/2023 - 19:08:15
+[14/8/2023-19:08:16] - Midleware file. Level: info GET en /users/login - at 14/8/2023 - 19:08:16
+[14/8/2023-19:08:16] - Midleware file. Level: info GET en /js/loginjwt.js - at 14/8/2023 - 19:08:16
+[14/8/2023-19:08:23] - Midleware file. Level: info POST en /api/jwt/current - at 14/8/2023 - 19:08:23
+[14/8/2023-19:08:24] - Midleware file. Level: info GET en /users - at 14/8/2023 - 19:08:24
+[14/8/2023-19:08:27] - Midleware file. Level: info GET en /users/premium/:email - at 14/8/2023 - 19:08:27
+[14/8/2023-19:08:27] - Midleware file. Level: info GET en /users/login - at 14/8/2023 - 19:08:27
+[14/8/2023-19:08:27] - Midleware file. Level: info GET en /js/loginjwt.js - at 14/8/2023 - 19:08:27
+[14/8/2023-19:13:20] - Midleware file. Level: info POST en /api/jwt/current - at 14/8/2023 - 19:13:20
+[14/8/2023-19:13:21] - Midleware file. Level: info GET en /users - at 14/8/2023 - 19:13:21
+[14/8/2023-19:13:24] - Midleware file. Level: info GET en /users/premium/:email - at 14/8/2023 - 19:13:24
+[14/8/2023-19:14:05] - Midleware file. Level: info GET en /users - at 14/8/2023 - 19:14:05
+[14/8/2023-19:17:28] - Midleware file. Level: info GET en /users/premium/:email - at 14/8/2023 - 19:17:28
+[14/8/2023-19:17:38] - Midleware file. Level: info GET en /users - at 14/8/2023 - 19:17:38
+[14/8/2023-19:18:02] - Midleware file. Level: info GET en /users/premium/ - at 14/8/2023 - 19:18:02
+[14/8/2023-19:18:02] - Midleware file. Level: info GET en /users/login - at 14/8/2023 - 19:18:02
+[14/8/2023-19:18:02] - Midleware file. Level: info GET en /js/loginjwt.js - at 14/8/2023 - 19:18:02
+[14/8/2023-19:18:09] - Midleware file. Level: info POST en /api/jwt/current - at 14/8/2023 - 19:18:09
+[14/8/2023-19:18:10] - Midleware file. Level: info GET en /users - at 14/8/2023 - 19:18:10
+[14/8/2023-19:18:11] - Midleware file. Level: info GET en /users/premium/ - at 14/8/2023 - 19:18:11
+[14/8/2023-19:18:11] - Midleware file. Level: info GET en /users/login - at 14/8/2023 - 19:18:11
+[14/8/2023-19:18:11] - Midleware file. Level: info GET en /js/loginjwt.js - at 14/8/2023 - 19:18:11
+[14/8/2023-19:19:42] - Midleware file. Level: info POST en /api/jwt/current - at 14/8/2023 - 19:19:42
+[14/8/2023-19:19:42] - Midleware file. Level: info GET en /users - at 14/8/2023 - 19:19:42
+[14/8/2023-19:19:45] - Midleware file. Level: info GET en /users/premium/ - at 14/8/2023 - 19:19:45
+[14/8/2023-19:21:20] - Midleware file. Level: info GET en /users - at 14/8/2023 - 19:21:20
+[14/8/2023-19:21:20] - Midleware file. Level: info GET en /favicon.ico - at 14/8/2023 - 19:21:20
+[14/8/2023-19:21:25] - Midleware file. Level: info GET en /users/logout - at 14/8/2023 - 19:21:25
+[14/8/2023-19:21:25] - Midleware file. Level: info GET en /users/login - at 14/8/2023 - 19:21:25
+[14/8/2023-19:21:25] - Midleware file. Level: info GET en /js/loginjwt.js - at 14/8/2023 - 19:21:25
+[14/8/2023-19:21:31] - Midleware file. Level: info POST en /api/jwt/current - at 14/8/2023 - 19:21:31
+[14/8/2023-19:21:31] - Midleware file. Level: info GET en /users - at 14/8/2023 - 19:21:31
+[14/8/2023-19:21:33] - Midleware file. Level: info GET en /users/premium/ - at 14/8/2023 - 19:21:33
+[14/8/2023-19:21:56] - Midleware file. Level: info GET en /users - at 14/8/2023 - 19:21:56
+[14/8/2023-19:22:00] - Midleware file. Level: info GET en /menu/docUplouder/ - at 14/8/2023 - 19:22:00
+[14/8/2023-19:22:00] - [14/8/2023-19:22:00] - Logger Info : policies: USER,ADMIN -user: USER url: /docUplouder/. 
+[14/8/2023-19:22:17] - Midleware file. Level: info POST en /users/premium/:rgme81@gmail.com/documents - at 14/8/2023 - 19:22:17
+[14/8/2023-19:22:25] - Midleware file. Level: info GET en /users - at 14/8/2023 - 19:22:25
+[14/8/2023-19:22:29] - Midleware file. Level: info GET en /users/premium/ - at 14/8/2023 - 19:22:29
+[14/8/2023-19:22:45] - Midleware file. Level: info GET en /users - at 14/8/2023 - 19:22:45
+[14/8/2023-19:22:48] - Midleware file. Level: info GET en /users/premium/ - at 14/8/2023 - 19:22:48
+[14/8/2023-19:24:20] - Midleware file. Level: info GET en /users/logout - at 14/8/2023 - 19:24:20
+[14/8/2023-19:24:21] - Midleware file. Level: info GET en /users/login - at 14/8/2023 - 19:24:21
+[14/8/2023-19:24:21] - Midleware file. Level: info GET en /js/loginjwt.js - at 14/8/2023 - 19:24:21
+[14/8/2023-19:24:28] - Midleware file. Level: info POST en /api/jwt/current - at 14/8/2023 - 19:24:28
+[14/8/2023-19:24:28] - Midleware file. Level: info GET en /users - at 14/8/2023 - 19:24:28
+[14/8/2023-19:24:31] - Midleware file. Level: info GET en /users/premium/ - at 14/8/2023 - 19:24:31
+[14/8/2023-19:25:01] - Midleware file. Level: info GET en /users/logout - at 14/8/2023 - 19:25:01
+[14/8/2023-19:25:01] - Midleware file. Level: info GET en /users/login - at 14/8/2023 - 19:25:01
+[14/8/2023-19:25:01] - Midleware file. Level: info GET en /js/loginjwt.js - at 14/8/2023 - 19:25:01
+[14/8/2023-19:56:36] - Midleware file. Level: info POST en /api/jwt/current - at 14/8/2023 - 19:56:36
+[14/8/2023-19:56:37] - Midleware file. Level: info GET en /users - at 14/8/2023 - 19:56:37
+[14/8/2023-19:57:04] - Midleware file. Level: info GET en /users/getAllUsers/ - at 14/8/2023 - 19:57:04
+[14/8/2023-19:58:16] - Midleware file. Level: info GET en /users - at 14/8/2023 - 19:58:16
+[14/8/2023-19:58:20] - Midleware file. Level: info GET en /users/logout - at 14/8/2023 - 19:58:20
+[14/8/2023-19:58:20] - Midleware file. Level: info GET en /users/login - at 14/8/2023 - 19:58:20
+[14/8/2023-19:58:20] - Midleware file. Level: info GET en /js/loginjwt.js - at 14/8/2023 - 19:58:20
+[15/8/2023-09:08:36] - Midleware file. Level: info GET en / - at 15/8/2023 - 09:08:36
+[15/8/2023-09:08:36] - Midleware file. Level: info GET en /users/login - at 15/8/2023 - 09:08:36
+[15/8/2023-09:08:36] - Midleware file. Level: info GET en /js/loginjwt.js - at 15/8/2023 - 09:08:36
+[15/8/2023-09:08:45] - Midleware file. Level: info POST en /api/jwt/current - at 15/8/2023 - 09:08:45
+[15/8/2023-09:08:45] - Midleware file. Level: info GET en /users - at 15/8/2023 - 09:08:45
+[15/8/2023-09:09:00] - Midleware file. Level: info GET en /users/getAllUsers/ - at 15/8/2023 - 09:09:00
+[15/8/2023-09:09:02] - Midleware file. Level: info GET en /users - at 15/8/2023 - 09:09:02
+[15/8/2023-09:09:14] - Midleware file. Level: info GET en /users/logout - at 15/8/2023 - 09:09:14
+[15/8/2023-09:09:14] - Midleware file. Level: info GET en /users/login - at 15/8/2023 - 09:09:14
+[15/8/2023-09:09:14] - Midleware file. Level: info GET en /js/loginjwt.js - at 15/8/2023 - 09:09:14
+[15/8/2023-09:09:21] - Midleware file. Level: info POST en /api/jwt/current - at 15/8/2023 - 09:09:21
+[15/8/2023-09:09:22] - Midleware file. Level: info GET en /users - at 15/8/2023 - 09:09:22
+[15/8/2023-09:09:28] - Midleware file. Level: info GET en /users/deleteInactiveUsers/ - at 15/8/2023 - 09:09:28
+[15/8/2023-09:10:05] - Midleware file. Level: info GET en /users/deleteInactiveUsers/ - at 15/8/2023 - 09:10:05
+[15/8/2023-09:10:06] - Midleware file. Level: info GET en /favicon.ico - at 15/8/2023 - 09:10:06
+[15/8/2023-09:10:54] - Midleware file. Level: info POST en /guardar-fecha - at 15/8/2023 - 09:10:54
+[15/8/2023-09:10:54] - Midleware file. Level: info GET en /users/login - at 15/8/2023 - 09:10:54
+[15/8/2023-09:10:54] - Midleware file. Level: info GET en /js/loginjwt.js - at 15/8/2023 - 09:10:54
+[15/8/2023-09:12:41] - Midleware file. Level: info POST en /api/jwt/current - at 15/8/2023 - 09:12:41
+[15/8/2023-09:12:42] - Midleware file. Level: info GET en /users - at 15/8/2023 - 09:12:42
+[15/8/2023-09:12:44] - Midleware file. Level: info GET en /users/deleteInactiveUsers/ - at 15/8/2023 - 09:12:44
+[15/8/2023-09:13:05] - Midleware file. Level: info POST en /guardar-fecha - at 15/8/2023 - 09:13:05
+[15/8/2023-09:13:05] - Midleware file. Level: info GET en /users/login - at 15/8/2023 - 09:13:05
+[15/8/2023-09:13:05] - Midleware file. Level: info GET en /js/loginjwt.js - at 15/8/2023 - 09:13:05
+[15/8/2023-09:13:39] - Midleware file. Level: info POST en /api/jwt/current - at 15/8/2023 - 09:13:39
+[15/8/2023-09:13:39] - Midleware file. Level: info GET en /users - at 15/8/2023 - 09:13:39
+[15/8/2023-09:13:42] - Midleware file. Level: info GET en /users/deleteInactiveUsers/ - at 15/8/2023 - 09:13:42
+[15/8/2023-09:16:52] - Midleware file. Level: info GET en /users/deleteInactiveUsers/ - at 15/8/2023 - 09:16:52
+[15/8/2023-09:16:55] - Midleware file. Level: info GET en /favicon.ico - at 15/8/2023 - 09:16:55
+[15/8/2023-09:17:07] - Midleware file. Level: info POST en /dateToDelete - at 15/8/2023 - 09:17:07
+[15/8/2023-09:17:07] - Midleware file. Level: info GET en /users/login - at 15/8/2023 - 09:17:07
+[15/8/2023-09:17:08] - Midleware file. Level: info GET en /js/loginjwt.js - at 15/8/2023 - 09:17:08
+[15/8/2023-09:19:57] - Midleware file. Level: info POST en /api/jwt/current - at 15/8/2023 - 09:19:57
+[15/8/2023-09:19:57] - Midleware file. Level: info GET en /users - at 15/8/2023 - 09:19:57
+[15/8/2023-09:20:00] - Midleware file. Level: info GET en /users/deleteInactiveUsers/ - at 15/8/2023 - 09:20:00
+[15/8/2023-09:20:36] - Midleware file. Level: info GET en /users/deleteInactiveUsers/ - at 15/8/2023 - 09:20:36
+[15/8/2023-09:20:37] - Midleware file. Level: info GET en /favicon.ico - at 15/8/2023 - 09:20:37
+[15/8/2023-09:20:40] - Midleware file. Level: info GET en /users - at 15/8/2023 - 09:20:40
+[15/8/2023-09:20:45] - Midleware file. Level: info GET en /users/deleteInactiveUsers/ - at 15/8/2023 - 09:20:45
+[15/8/2023-09:20:51] - Midleware file. Level: info POST en /users/dateToDelete - at 15/8/2023 - 09:20:51
+[15/8/2023-09:36:50] - Midleware file. Level: info GET en / - at 15/8/2023 - 09:36:50
+[15/8/2023-09:36:50] - Midleware file. Level: info GET en /users/login - at 15/8/2023 - 09:36:50
+[15/8/2023-09:36:50] - Midleware file. Level: info GET en /js/loginjwt.js - at 15/8/2023 - 09:36:50
+[15/8/2023-09:36:58] - Midleware file. Level: info POST en /api/jwt/current - at 15/8/2023 - 09:36:58
+[15/8/2023-09:36:58] - Midleware file. Level: info GET en /users - at 15/8/2023 - 09:36:58
+[15/8/2023-09:37:01] - Midleware file. Level: info GET en /users/deleteInactiveUsers/ - at 15/8/2023 - 09:37:01
+[15/8/2023-09:37:24] - Midleware file. Level: info POST en /users/dateToDelete - at 15/8/2023 - 09:37:24
+[15/8/2023-09:38:46] - Midleware file. Level: info GET en /users - at 15/8/2023 - 09:38:46
+[15/8/2023-09:38:50] - Midleware file. Level: info GET en /users/deleteInactiveUsers/ - at 15/8/2023 - 09:38:50
+[15/8/2023-09:38:58] - Midleware file. Level: info POST en /users/dateToDelete - at 15/8/2023 - 09:38:58
+[15/8/2023-09:41:00] - Midleware file. Level: info GET en /users - at 15/8/2023 - 09:41:00
+[15/8/2023-09:41:00] - Midleware file. Level: info GET en /favicon.ico - at 15/8/2023 - 09:41:00
+[15/8/2023-09:41:05] - Midleware file. Level: info GET en /users/deleteInactiveUsers/ - at 15/8/2023 - 09:41:05
+[15/8/2023-09:41:15] - Midleware file. Level: info POST en /users/dateToDelete - at 15/8/2023 - 09:41:15
+[15/8/2023-09:43:08] - Midleware file. Level: info GET en / - at 15/8/2023 - 09:43:08
+[15/8/2023-09:43:08] - Midleware file. Level: info GET en /users/login - at 15/8/2023 - 09:43:08
+[15/8/2023-09:43:09] - Midleware file. Level: info GET en /js/loginjwt.js - at 15/8/2023 - 09:43:09
+[15/8/2023-09:43:14] - Midleware file. Level: info POST en /api/jwt/current - at 15/8/2023 - 09:43:14
+[15/8/2023-09:43:15] - Midleware file. Level: info GET en /users - at 15/8/2023 - 09:43:15
+[15/8/2023-09:43:17] - Midleware file. Level: info GET en /users/deleteInactiveUsers/ - at 15/8/2023 - 09:43:17
+[15/8/2023-09:43:23] - Midleware file. Level: info POST en /users/dateToDelete - at 15/8/2023 - 09:43:23
+[15/8/2023-09:43:56] - Midleware file. Level: info GET en /users - at 15/8/2023 - 09:43:56
+[15/8/2023-09:43:56] - Midleware file. Level: info GET en /users - at 15/8/2023 - 09:43:56
+[15/8/2023-09:45:05] - Midleware file. Level: info GET en /users/logout - at 15/8/2023 - 09:45:05
+[15/8/2023-09:45:06] - Midleware file. Level: info GET en /users/logout - at 15/8/2023 - 09:45:06
+[15/8/2023-09:45:07] - Midleware file. Level: info GET en /users/login - at 15/8/2023 - 09:45:07
+[15/8/2023-09:45:07] - Midleware file. Level: info GET en /js/loginjwt.js - at 15/8/2023 - 09:45:07
+[15/8/2023-09:45:13] - Midleware file. Level: info POST en /api/jwt/current - at 15/8/2023 - 09:45:13
+[15/8/2023-09:45:13] - Midleware file. Level: info GET en /users - at 15/8/2023 - 09:45:13
+[15/8/2023-09:45:16] - Midleware file. Level: info GET en /users/deleteInactiveUsers/ - at 15/8/2023 - 09:45:16
+[15/8/2023-09:45:27] - Midleware file. Level: info POST en /users/dateToDelete - at 15/8/2023 - 09:45:27
+[15/8/2023-09:47:17] - Midleware file. Level: info GET en /users - at 15/8/2023 - 09:47:17
+[15/8/2023-09:47:19] - Midleware file. Level: info GET en /users/getAllUsers/ - at 15/8/2023 - 09:47:19
+[15/8/2023-09:47:24] - Midleware file. Level: info GET en /users - at 15/8/2023 - 09:47:24
+[15/8/2023-10:01:47] - Midleware file. Level: info GET en /users/deleteInactiveUsers/ - at 15/8/2023 - 10:01:47
+[15/8/2023-10:01:47] - Midleware file. Level: info GET en /login - at 15/8/2023 - 10:01:47
+[15/8/2023-10:01:47] - Midleware file. Level: info GET en /users/login - at 15/8/2023 - 10:01:47
+[15/8/2023-10:01:47] - Midleware file. Level: info GET en /js/loginjwt.js - at 15/8/2023 - 10:01:47
+[15/8/2023-10:01:56] - Midleware file. Level: info POST en /api/jwt/current - at 15/8/2023 - 10:01:56
+[15/8/2023-10:01:56] - Midleware file. Level: info GET en /users - at 15/8/2023 - 10:01:56
+[15/8/2023-10:01:59] - Midleware file. Level: info GET en /users/deleteInactiveUsers/ - at 15/8/2023 - 10:01:59
+[15/8/2023-10:02:12] - Midleware file. Level: info POST en /users/dateToDelete - at 15/8/2023 - 10:02:12
+[15/8/2023-10:08:39] - Midleware file. Level: info GET en /users - at 15/8/2023 - 10:08:39
+[15/8/2023-10:09:25] - Midleware file. Level: info GET en /users/deleteInactiveUsers/ - at 15/8/2023 - 10:09:25
+[15/8/2023-10:09:36] - Midleware file. Level: info POST en /users/dateToDelete - at 15/8/2023 - 10:09:36
+[15/8/2023-10:09:58] - Midleware file. Level: info GET en /users - at 15/8/2023 - 10:09:58
+[15/8/2023-10:10:00] - Midleware file. Level: info GET en /users/getAllUsers/ - at 15/8/2023 - 10:10:00
+[15/8/2023-10:10:04] - Midleware file. Level: info GET en /users - at 15/8/2023 - 10:10:04
+[15/8/2023-10:12:12] - Midleware file. Level: info GET en /users/logout - at 15/8/2023 - 10:12:12
+[15/8/2023-10:12:13] - Midleware file. Level: info GET en /users/login - at 15/8/2023 - 10:12:13
+[15/8/2023-10:12:13] - Midleware file. Level: info GET en /js/loginjwt.js - at 15/8/2023 - 10:12:13
+[15/8/2023-10:12:23] - Midleware file. Level: info GET en /users/register - at 15/8/2023 - 10:12:23
+[15/8/2023-10:12:23] - Midleware file. Level: info GET en /js/register.js - at 15/8/2023 - 10:12:23
+[15/8/2023-10:38:37] - Midleware file. Level: info GET en / - at 15/8/2023 - 10:38:37
+[15/8/2023-10:38:37] - Midleware file. Level: info GET en /users/login - at 15/8/2023 - 10:38:37
+[15/8/2023-10:38:37] - Midleware file. Level: info GET en /js/loginjwt.js - at 15/8/2023 - 10:38:37
+[15/8/2023-10:38:57] - Midleware file. Level: info POST en /api/jwt/current - at 15/8/2023 - 10:38:57
+[15/8/2023-10:38:58] - Midleware file. Level: info GET en /users - at 15/8/2023 - 10:38:58
+[15/8/2023-10:39:16] - Midleware file. Level: info GET en /menu/menu - at 15/8/2023 - 10:39:16
+[15/8/2023-10:39:16] - [15/8/2023-10:39:16] - Logger Info : policies: USER,ADMIN,PREMIUM -user: PREMIUM url: /menu. 
+[15/8/2023-10:39:19] - Midleware file. Level: info GET en /users - at 15/8/2023 - 10:39:19
+[15/8/2023-10:39:23] - Midleware file. Level: info GET en /products/realTimeProducts/ - at 15/8/2023 - 10:39:23
+[15/8/2023-10:39:23] - [15/8/2023-10:39:23] - Logger Info : policies: USER,ADMIN,PREMIUM -user: PREMIUM url: /realTimeProducts/. 
+[15/8/2023-10:39:43] - Midleware file. Level: info GET en /products/realTimeProducts/delete?pid=94 - at 15/8/2023 - 10:39:43
+[15/8/2023-10:39:43] - [15/8/2023-10:39:43] - Logger Info : policies: ADMIN,PREMIUM -user: PREMIUM url: /realTimeProducts/delete?pid=94. 
+[15/8/2023-10:41:09] - Midleware file. Level: info GET en /users - at 15/8/2023 - 10:41:09
+[15/8/2023-10:41:14] - Midleware file. Level: info GET en /products/realTimeProducts/ - at 15/8/2023 - 10:41:14
+[15/8/2023-10:41:14] - [15/8/2023-10:41:14] - Logger Info : policies: USER,ADMIN,PREMIUM -user: PREMIUM url: /realTimeProducts/. 
+[15/8/2023-10:41:24] - Midleware file. Level: info GET en /products/realTimeProducts/delete?pid=94 - at 15/8/2023 - 10:41:24
+[15/8/2023-10:41:24] - [15/8/2023-10:41:24] - Logger Info : policies: ADMIN,PREMIUM -user: PREMIUM url: /realTimeProducts/delete?pid=94. 
+[15/8/2023-10:52:53] - Midleware file. Level: info GET en /favicon.ico - at 15/8/2023 - 10:52:53
+[15/8/2023-10:52:57] - Midleware file. Level: info GET en /products/realTimeProducts/delete?pid=94 - at 15/8/2023 - 10:52:57
+[15/8/2023-10:53:03] - Midleware file. Level: info GET en /users/logout - at 15/8/2023 - 10:53:03
+[15/8/2023-10:53:03] - Midleware file. Level: info GET en /users/login - at 15/8/2023 - 10:53:03
+[15/8/2023-10:53:03] - Midleware file. Level: info GET en /js/loginjwt.js - at 15/8/2023 - 10:53:03
+[15/8/2023-10:53:11] - Midleware file. Level: info POST en /api/jwt/current - at 15/8/2023 - 10:53:11
+[15/8/2023-10:53:12] - Midleware file. Level: info GET en /users - at 15/8/2023 - 10:53:12
+[15/8/2023-10:53:24] - Midleware file. Level: info GET en /products/realTimeProducts/ - at 15/8/2023 - 10:53:24
+[15/8/2023-10:53:24] - [15/8/2023-10:53:24] - Logger Info : policies: USER,ADMIN,PREMIUM -user: ADMIN url: /realTimeProducts/. 
+[15/8/2023-10:53:27] - Midleware file. Level: info GET en /products/realTimeProducts/delete?pid=94 - at 15/8/2023 - 10:53:27
+[15/8/2023-10:54:35] - Midleware file. Level: info GET en /products/realTimeProducts/delete?pid=94 - at 15/8/2023 - 10:54:35
+[15/8/2023-10:54:35] - [15/8/2023-10:54:35] - Logger Info : policies: ADMIN,PREMIUM -user: ADMIN url: /realTimeProducts/delete?pid=94. 
+[15/8/2023-10:56:12] - Midleware file. Level: info GET en /users - at 15/8/2023 - 10:56:12
+[15/8/2023-10:56:15] - Midleware file. Level: info GET en /products/realTimeProducts/ - at 15/8/2023 - 10:56:15
+[15/8/2023-10:56:15] - [15/8/2023-10:56:15] - Logger Info : policies: USER,ADMIN,PREMIUM -user: ADMIN url: /realTimeProducts/. 
+[15/8/2023-10:56:20] - Midleware file. Level: info GET en /products/realTimeProducts/delete?pid=94 - at 15/8/2023 - 10:56:20
+[15/8/2023-10:56:20] - [15/8/2023-10:56:20] - Logger Info : policies: ADMIN,PREMIUM -user: ADMIN url: /realTimeProducts/delete?pid=94. 
+[15/8/2023-10:57:16] - Midleware file. Level: info GET en /products/realTimeProducts/delete?pid=78 - at 15/8/2023 - 10:57:16
+[15/8/2023-10:57:16] - [15/8/2023-10:57:16] - Logger Info : policies: ADMIN,PREMIUM -user: ADMIN url: /realTimeProducts/delete?pid=78. 
+[15/8/2023-11:02:47] - Midleware file. Level: info GET en /products/realTimeProducts/delete?pid=25 - at 15/8/2023 - 11:02:47
+[15/8/2023-11:02:47] - [15/8/2023-11:02:47] - Logger Info : policies: ADMIN,PREMIUM -user: ADMIN url: /realTimeProducts/delete?pid=25. 
+[15/8/2023-11:03:51] - Midleware file. Level: info GET en / - at 15/8/2023 - 11:03:51
+[15/8/2023-11:03:51] - Midleware file. Level: info GET en /users/login - at 15/8/2023 - 11:03:51
+[15/8/2023-11:03:51] - Midleware file. Level: info GET en /js/loginjwt.js - at 15/8/2023 - 11:03:51
+[15/8/2023-11:03:52] - Midleware file. Level: info GET en /favicon.ico - at 15/8/2023 - 11:03:52
+[15/8/2023-11:04:06] - Midleware file. Level: info POST en /api/jwt/current - at 15/8/2023 - 11:04:06
+[15/8/2023-11:04:06] - Midleware file. Level: info GET en /users - at 15/8/2023 - 11:04:06
+[15/8/2023-11:04:11] - Midleware file. Level: info GET en /products/realTimeProducts/ - at 15/8/2023 - 11:04:11
+[15/8/2023-11:04:11] - [15/8/2023-11:04:11] - Logger Info : policies: USER,ADMIN,PREMIUM -user: ADMIN url: /realTimeProducts/. 
+[15/8/2023-11:04:19] - Midleware file. Level: info GET en /products/realTimeProducts/delete?pid=25 - at 15/8/2023 - 11:04:19
+[15/8/2023-11:04:19] - [15/8/2023-11:04:19] - Logger Info : policies: ADMIN,PREMIUM -user: ADMIN url: /realTimeProducts/delete?pid=25. 
+[15/8/2023-11:05:05] - Midleware file. Level: info GET en /users/logout - at 15/8/2023 - 11:05:05
+[15/8/2023-11:05:05] - Midleware file. Level: info GET en /users/login - at 15/8/2023 - 11:05:05
+[15/8/2023-11:05:05] - Midleware file. Level: info GET en /js/loginjwt.js - at 15/8/2023 - 11:05:05
+[15/8/2023-11:05:06] - Midleware file. Level: info GET en /favicon.ico - at 15/8/2023 - 11:05:06
+[15/8/2023-11:05:17] - Midleware file. Level: info POST en /api/jwt/current - at 15/8/2023 - 11:05:17
+[15/8/2023-11:05:18] - Midleware file. Level: info GET en /users - at 15/8/2023 - 11:05:18
+[15/8/2023-11:05:24] - Midleware file. Level: info GET en /users/getAllUsers/ - at 15/8/2023 - 11:05:24
+[15/8/2023-11:06:22] - Midleware file. Level: info GET en /users - at 15/8/2023 - 11:06:22
+[15/8/2023-11:06:24] - Midleware file. Level: info GET en /users/getAllUsers/ - at 15/8/2023 - 11:06:24
+[15/8/2023-11:06:47] - Midleware file. Level: info GET en /users - at 15/8/2023 - 11:06:47
+[15/8/2023-11:06:48] - Midleware file. Level: info GET en /users/logout - at 15/8/2023 - 11:06:48
+[15/8/2023-11:06:48] - Midleware file. Level: info GET en /users/login - at 15/8/2023 - 11:06:48
+[15/8/2023-11:06:48] - Midleware file. Level: info GET en /js/loginjwt.js - at 15/8/2023 - 11:06:48
+[15/8/2023-11:06:59] - Midleware file. Level: info POST en /api/jwt/current - at 15/8/2023 - 11:06:59
+[15/8/2023-11:07:00] - Midleware file. Level: info GET en /users - at 15/8/2023 - 11:07:00
+[15/8/2023-11:07:03] - Midleware file. Level: info GET en /products/realTimeProducts/ - at 15/8/2023 - 11:07:03
+[15/8/2023-11:07:03] - [15/8/2023-11:07:03] - Logger Info : policies: USER,ADMIN,PREMIUM -user: PREMIUM url: /realTimeProducts/. 
+[15/8/2023-11:07:11] - Midleware file. Level: info GET en /products/realTimeProducts/delete?pid=25 - at 15/8/2023 - 11:07:11
+[15/8/2023-11:07:11] - [15/8/2023-11:07:11] - Logger Info : policies: ADMIN,PREMIUM -user: PREMIUM url: /realTimeProducts/delete?pid=25. 
+[15/8/2023-11:08:30] - Midleware file. Level: info GET en /users - at 15/8/2023 - 11:08:30
+[15/8/2023-11:08:33] - Midleware file. Level: info GET en /products/realTimeProducts/ - at 15/8/2023 - 11:08:33
+[15/8/2023-11:08:33] - [15/8/2023-11:08:33] - Logger Info : policies: USER,ADMIN,PREMIUM -user: PREMIUM url: /realTimeProducts/. 
+[15/8/2023-11:08:39] - Midleware file. Level: info GET en /products/realTimeProducts/delete?pid=25 - at 15/8/2023 - 11:08:39
+[15/8/2023-11:08:39] - [15/8/2023-11:08:39] - Logger Info : policies: ADMIN,PREMIUM -user: PREMIUM url: /realTimeProducts/delete?pid=25. 
+[15/8/2023-11:09:11] - Midleware file. Level: info GET en /users - at 15/8/2023 - 11:09:11
+[15/8/2023-11:09:15] - Midleware file. Level: info GET en /products/realTimeProducts/ - at 15/8/2023 - 11:09:15
+[15/8/2023-11:09:15] - [15/8/2023-11:09:15] - Logger Info : policies: USER,ADMIN,PREMIUM -user: PREMIUM url: /realTimeProducts/. 
+[15/8/2023-11:15:47] - Midleware file. Level: info GET en /products/realTimeProducts/delete?pid=25 - at 15/8/2023 - 11:15:47
+[15/8/2023-11:15:47] - [15/8/2023-11:15:47] - Logger Info : policies: ADMIN,PREMIUM -user: PREMIUM url: /realTimeProducts/delete?pid=25. 
+[15/8/2023-11:19:23] - Midleware file. Level: info GET en /users - at 15/8/2023 - 11:19:23
+[15/8/2023-11:19:23] - Midleware file. Level: info GET en /login - at 15/8/2023 - 11:19:23
+[15/8/2023-11:19:23] - Midleware file. Level: info GET en /users/login - at 15/8/2023 - 11:19:23
+[15/8/2023-11:19:23] - Midleware file. Level: info GET en /js/loginjwt.js - at 15/8/2023 - 11:19:23
+[15/8/2023-11:19:23] - Midleware file. Level: info GET en /favicon.ico - at 15/8/2023 - 11:19:23
+[15/8/2023-11:19:30] - Midleware file. Level: info POST en /api/jwt/current - at 15/8/2023 - 11:19:30
+[15/8/2023-11:19:30] - Midleware file. Level: info GET en /users/register - at 15/8/2023 - 11:19:30
+[15/8/2023-11:19:30] - Midleware file. Level: info GET en /js/register.js - at 15/8/2023 - 11:19:30
+[15/8/2023-11:19:34] - Midleware file. Level: info GET en /users - at 15/8/2023 - 11:19:34
+[15/8/2023-11:19:34] - Midleware file. Level: info GET en /login - at 15/8/2023 - 11:19:34
+[15/8/2023-11:19:34] - Midleware file. Level: info GET en /users/login - at 15/8/2023 - 11:19:34
+[15/8/2023-11:19:34] - Midleware file. Level: info GET en /js/loginjwt.js - at 15/8/2023 - 11:19:34
+[15/8/2023-11:19:40] - Midleware file. Level: info POST en /api/jwt/current - at 15/8/2023 - 11:19:40
+[15/8/2023-11:19:40] - Midleware file. Level: info GET en /users - at 15/8/2023 - 11:19:40
+[15/8/2023-11:19:44] - Midleware file. Level: info GET en /products/realTimeProducts/ - at 15/8/2023 - 11:19:44
+[15/8/2023-11:19:44] - [15/8/2023-11:19:44] - Logger Info : policies: USER,ADMIN,PREMIUM -user: PREMIUM url: /realTimeProducts/. 
+[15/8/2023-11:20:11] - Midleware file. Level: info POST en /products/realTimeProducts - at 15/8/2023 - 11:20:11
+[15/8/2023-11:20:11] - [15/8/2023-11:20:11] - Logger Info : policies: ADMIN,PREMIUM -user: PREMIUM url: /realTimeProducts. 
+[15/8/2023-11:20:27] - Midleware file. Level: info GET en /products/realTimeProducts/delete?pid=26 - at 15/8/2023 - 11:20:27
+[15/8/2023-11:20:27] - [15/8/2023-11:20:27] - Logger Info : policies: ADMIN,PREMIUM -user: PREMIUM url: /realTimeProducts/delete?pid=26. 
+[15/8/2023-11:22:05] - Midleware file. Level: info GET en /products/realTimeProducts/delete?pid=26 - at 15/8/2023 - 11:22:05
+[15/8/2023-11:22:05] - [15/8/2023-11:22:05] - Logger Info : policies: ADMIN,PREMIUM -user: PREMIUM url: /realTimeProducts/delete?pid=26. 
+[15/8/2023-11:22:44] - Midleware file. Level: info GET en /users/logout - at 15/8/2023 - 11:22:44
+[15/8/2023-11:22:44] - Midleware file. Level: info GET en /users/logout - at 15/8/2023 - 11:22:44
+[15/8/2023-11:22:46] - Midleware file. Level: info GET en /users/login - at 15/8/2023 - 11:22:46
+[15/8/2023-11:22:46] - Midleware file. Level: info GET en /js/loginjwt.js - at 15/8/2023 - 11:22:46
+[15/8/2023-11:22:52] - Midleware file. Level: info POST en /api/jwt/current - at 15/8/2023 - 11:22:52
+[15/8/2023-11:22:52] - Midleware file. Level: info GET en /users - at 15/8/2023 - 11:22:52
+[15/8/2023-11:22:55] - Midleware file. Level: info GET en /products/realTimeProducts/ - at 15/8/2023 - 11:22:55
+[15/8/2023-11:22:55] - [15/8/2023-11:22:55] - Logger Info : policies: USER,ADMIN,PREMIUM -user: PREMIUM url: /realTimeProducts/. 
+[15/8/2023-11:23:32] - Midleware file. Level: info GET en /products/realTimeProducts/delete?pid=26 - at 15/8/2023 - 11:23:32
+[15/8/2023-11:23:32] - [15/8/2023-11:23:32] - Logger Info : policies: ADMIN,PREMIUM -user: PREMIUM url: /realTimeProducts/delete?pid=26. 
+[15/8/2023-11:25:03] - Midleware file. Level: info GET en /products/realTimeProducts/delete?pid=26 - at 15/8/2023 - 11:25:03
+[15/8/2023-11:25:03] - [15/8/2023-11:25:03] - Logger Info : policies: ADMIN,PREMIUM -user: PREMIUM url: /realTimeProducts/delete?pid=26. 
+[15/8/2023-11:25:13] - Midleware file. Level: info GET en /users - at 15/8/2023 - 11:25:13
+[15/8/2023-11:25:15] - Midleware file. Level: info GET en /products/realTimeProducts/ - at 15/8/2023 - 11:25:15
+[15/8/2023-11:25:15] - [15/8/2023-11:25:15] - Logger Info : policies: USER,ADMIN,PREMIUM -user: PREMIUM url: /realTimeProducts/. 
+[15/8/2023-11:25:21] - Midleware file. Level: info GET en /products/realTimeProducts/delete?pid=26 - at 15/8/2023 - 11:25:21
+[15/8/2023-11:25:21] - [15/8/2023-11:25:21] - Logger Info : policies: ADMIN,PREMIUM -user: PREMIUM url: /realTimeProducts/delete?pid=26. 
+[15/8/2023-11:27:01] - Midleware file. Level: info GET en /users - at 15/8/2023 - 11:27:01
+[15/8/2023-11:27:04] - Midleware file. Level: info GET en /products/realTimeProducts/ - at 15/8/2023 - 11:27:04
+[15/8/2023-11:27:04] - [15/8/2023-11:27:04] - Logger Info : policies: USER,ADMIN,PREMIUM -user: PREMIUM url: /realTimeProducts/. 
+[15/8/2023-11:27:11] - Midleware file. Level: info GET en /products/realTimeProducts/delete?pid=26 - at 15/8/2023 - 11:27:11
+[15/8/2023-11:27:11] - [15/8/2023-11:27:11] - Logger Info : policies: ADMIN,PREMIUM -user: PREMIUM url: /realTimeProducts/delete?pid=26. 
+[15/8/2023-11:28:29] - Midleware file. Level: info GET en /users - at 15/8/2023 - 11:28:29
+[15/8/2023-11:28:33] - Midleware file. Level: info GET en /products/realTimeProducts/ - at 15/8/2023 - 11:28:33
+[15/8/2023-11:28:33] - [15/8/2023-11:28:33] - Logger Info : policies: USER,ADMIN,PREMIUM -user: PREMIUM url: /realTimeProducts/. 
+[15/8/2023-11:28:37] - Midleware file. Level: info GET en /products/realTimeProducts/delete?pid=26 - at 15/8/2023 - 11:28:37
+[15/8/2023-11:28:37] - [15/8/2023-11:28:37] - Logger Info : policies: ADMIN,PREMIUM -user: PREMIUM url: /realTimeProducts/delete?pid=26. 
+[15/8/2023-11:28:53] - Midleware file. Level: info GET en /users - at 15/8/2023 - 11:28:53
+[15/8/2023-11:28:55] - Midleware file. Level: info GET en /products/realTimeProducts/ - at 15/8/2023 - 11:28:55
+[15/8/2023-11:28:55] - [15/8/2023-11:28:55] - Logger Info : policies: USER,ADMIN,PREMIUM -user: PREMIUM url: /realTimeProducts/. 
+[15/8/2023-11:28:59] - Midleware file. Level: info GET en /products/realTimeProducts/delete?pid=26 - at 15/8/2023 - 11:28:59
+[15/8/2023-11:28:59] - [15/8/2023-11:28:59] - Logger Info : policies: ADMIN,PREMIUM -user: PREMIUM url: /realTimeProducts/delete?pid=26. 
+[15/8/2023-11:29:22] - Midleware file. Level: info GET en /users - at 15/8/2023 - 11:29:22
+[15/8/2023-11:29:24] - Midleware file. Level: info GET en /products/realTimeProducts/ - at 15/8/2023 - 11:29:24
+[15/8/2023-11:29:24] - [15/8/2023-11:29:24] - Logger Info : policies: USER,ADMIN,PREMIUM -user: PREMIUM url: /realTimeProducts/. 
+[15/8/2023-11:29:27] - Midleware file. Level: info GET en /products/realTimeProducts/delete?pid=26 - at 15/8/2023 - 11:29:27
+[15/8/2023-11:29:27] - [15/8/2023-11:29:27] - Logger Info : policies: ADMIN,PREMIUM -user: PREMIUM url: /realTimeProducts/delete?pid=26. 
+[15/8/2023-11:31:06] - Midleware file. Level: info GET en /products/realTimeProducts/delete?pid=26 - at 15/8/2023 - 11:31:06
+[15/8/2023-11:31:06] - [15/8/2023-11:31:06] - Logger Info : policies: ADMIN,PREMIUM -user: PREMIUM url: /realTimeProducts/delete?pid=26. 
+[15/8/2023-11:31:13] - Midleware file. Level: info GET en /favicon.ico - at 15/8/2023 - 11:31:13
+[15/8/2023-11:31:25] - Midleware file. Level: info GET en /users - at 15/8/2023 - 11:31:25
+[15/8/2023-11:31:27] - Midleware file. Level: info GET en /products/realTimeProducts/ - at 15/8/2023 - 11:31:27
+[15/8/2023-11:31:27] - [15/8/2023-11:31:27] - Logger Info : policies: USER,ADMIN,PREMIUM -user: PREMIUM url: /realTimeProducts/. 
+[15/8/2023-11:31:48] - Midleware file. Level: info POST en /products/realTimeProducts - at 15/8/2023 - 11:31:48
+[15/8/2023-11:31:48] - [15/8/2023-11:31:48] - Logger Info : policies: ADMIN,PREMIUM -user: PREMIUM url: /realTimeProducts. 
+[15/8/2023-11:31:59] - Midleware file. Level: info GET en /products/realTimeProducts/delete?pid=26 - at 15/8/2023 - 11:31:59
+[15/8/2023-11:31:59] - [15/8/2023-11:31:59] - Logger Info : policies: ADMIN,PREMIUM -user: PREMIUM url: /realTimeProducts/delete?pid=26. 
+[15/8/2023-11:33:55] - Midleware file. Level: info GET en /users - at 15/8/2023 - 11:33:55
+[15/8/2023-11:33:57] - Midleware file. Level: info GET en /products/realTimeProducts/ - at 15/8/2023 - 11:33:57
+[15/8/2023-11:33:57] - [15/8/2023-11:33:57] - Logger Info : policies: USER,ADMIN,PREMIUM -user: PREMIUM url: /realTimeProducts/. 
+[15/8/2023-11:34:13] - Midleware file. Level: info POST en /products/realTimeProducts - at 15/8/2023 - 11:34:13
+[15/8/2023-11:34:13] - [15/8/2023-11:34:13] - Logger Info : policies: ADMIN,PREMIUM -user: PREMIUM url: /realTimeProducts. 
+[15/8/2023-11:34:47] - Midleware file. Level: info GET en /products/realTimeProducts/delete?pid=26 - at 15/8/2023 - 11:34:47
+[15/8/2023-11:36:56] - Midleware file. Level: info GET en /users - at 15/8/2023 - 11:36:56
+[15/8/2023-11:36:56] - Midleware file. Level: info GET en /login - at 15/8/2023 - 11:36:56
+[15/8/2023-11:36:56] - Midleware file. Level: info GET en /users/login - at 15/8/2023 - 11:36:56
+[15/8/2023-11:36:56] - Midleware file. Level: info GET en /js/loginjwt.js - at 15/8/2023 - 11:36:56
+[15/8/2023-11:37:03] - Midleware file. Level: info POST en /api/jwt/current - at 15/8/2023 - 11:37:03
+[15/8/2023-11:37:04] - Midleware file. Level: info GET en /users - at 15/8/2023 - 11:37:04
+[15/8/2023-11:37:06] - Midleware file. Level: info GET en /products/realTimeProducts/ - at 15/8/2023 - 11:37:06
+[15/8/2023-11:37:06] - [15/8/2023-11:37:06] - Logger Info : policies: USER,ADMIN,PREMIUM -user: PREMIUM url: /realTimeProducts/. 
+[15/8/2023-11:37:13] - Midleware file. Level: info GET en /products/realTimeProducts/delete?pid=26 - at 15/8/2023 - 11:37:13
+[15/8/2023-11:37:13] - [15/8/2023-11:37:13] - Logger Info : policies: ADMIN,PREMIUM -user: PREMIUM url: /realTimeProducts/delete?pid=26. 
+[15/8/2023-12:07:36] - Midleware file. Level: info GET en /users - at 15/8/2023 - 12:07:36
+[15/8/2023-12:07:36] - Midleware file. Level: info GET en /login - at 15/8/2023 - 12:07:36
+[15/8/2023-12:07:36] - Midleware file. Level: info GET en /users/login - at 15/8/2023 - 12:07:36
+[15/8/2023-12:07:36] - Midleware file. Level: info GET en /js/loginjwt.js - at 15/8/2023 - 12:07:36
+[15/8/2023-12:07:42] - Midleware file. Level: info POST en /api/jwt/current - at 15/8/2023 - 12:07:42
+[15/8/2023-12:07:43] - Midleware file. Level: info GET en /users - at 15/8/2023 - 12:07:43
+[15/8/2023-12:07:45] - Midleware file. Level: info GET en /products/realTimeProducts/ - at 15/8/2023 - 12:07:45
+[15/8/2023-12:07:45] - [15/8/2023-12:07:45] - Logger Info : policies: USER,ADMIN,PREMIUM -user: PREMIUM url: /realTimeProducts/. 
+[15/8/2023-12:07:57] - Midleware file. Level: info POST en /products/realTimeProducts - at 15/8/2023 - 12:07:57
+[15/8/2023-12:07:57] - [15/8/2023-12:07:57] - Logger Info : policies: ADMIN,PREMIUM -user: PREMIUM url: /realTimeProducts. 
+[15/8/2023-12:08:05] - Midleware file. Level: info GET en /products/realTimeProducts/delete?pid=26 - at 15/8/2023 - 12:08:05
+[15/8/2023-12:08:05] - [15/8/2023-12:08:05] - Logger Info : policies: ADMIN,PREMIUM -user: PREMIUM url: /realTimeProducts/delete?pid=26. 
+[15/8/2023-12:12:21] - Midleware file. Level: info GET en /users - at 15/8/2023 - 12:12:21
+[15/8/2023-12:12:23] - Midleware file. Level: info GET en /products/realTimeCarts/ - at 15/8/2023 - 12:12:23
+[15/8/2023-12:12:23] - [15/8/2023-12:12:23] - Logger Info : policies: USER,ADMIN,PREMIUM -user: PREMIUM url: /realTimeCarts/. 
+[15/8/2023-12:12:36] - Midleware file. Level: info POST en /products/realTimeCarts/add - at 15/8/2023 - 12:12:36
+[15/8/2023-12:12:36] - [15/8/2023-12:12:36] - Logger Info : policies: USER,PREMIUM -user: PREMIUM url: /realTimeCarts/add. 
+[15/8/2023-12:12:36] - Midleware file. Level: info GET en /products/realTimeCarts/ - at 15/8/2023 - 12:12:36
+[15/8/2023-12:12:36] - [15/8/2023-12:12:36] - Logger Info : policies: USER,ADMIN,PREMIUM -user: PREMIUM url: /realTimeCarts/. 
+[15/8/2023-12:12:47] - Midleware file. Level: info GET en /users - at 15/8/2023 - 12:12:47
+[15/8/2023-12:12:52] - Midleware file. Level: info GET en /products/realTimeCarts/ - at 15/8/2023 - 12:12:52
+[15/8/2023-12:12:52] - [15/8/2023-12:12:52] - Logger Info : policies: USER,ADMIN,PREMIUM -user: PREMIUM url: /realTimeCarts/. 
+[15/8/2023-12:12:57] - Midleware file. Level: info POST en /products/realTimeCarts/purchase - at 15/8/2023 - 12:12:57
+[15/8/2023-12:12:57] - [15/8/2023-12:12:57] - Logger Info : policies: USER,PREMIUM -user: PREMIUM url: /realTimeCarts/purchase. 
+[15/8/2023-12:12:58] - Midleware file. Level: info GET en /products/realTimeCarts/ - at 15/8/2023 - 12:12:58
+[15/8/2023-12:12:58] - [15/8/2023-12:12:58] - Logger Info : policies: USER,ADMIN,PREMIUM -user: PREMIUM url: /realTimeCarts/. 
+[15/8/2023-12:13:01] - Midleware file. Level: info GET en /users - at 15/8/2023 - 12:13:01
+[15/8/2023-12:13:07] - Midleware file. Level: info GET en /api/tickets/show - at 15/8/2023 - 12:13:07
+[15/8/2023-12:13:07] - [15/8/2023-12:13:07] - Logger Info : policies: USER,PREMIUM -user: PREMIUM url: /show. 
+[15/8/2023-12:13:11] - Midleware file. Level: info GET en /users - at 15/8/2023 - 12:13:11
+[15/8/2023-12:13:36] - Midleware file. Level: info GET en /api/chat/ini - at 15/8/2023 - 12:13:36
+[15/8/2023-12:13:36] - [15/8/2023-12:13:36] - Logger Info : policies: USER,PREMIUM -user: PREMIUM url: /ini. 
+[15/8/2023-12:13:36] - Midleware file. Level: info GET en /js/socket.js - at 15/8/2023 - 12:13:36
+[15/8/2023-12:14:11] - Midleware file. Level: info GET en /users/logout - at 15/8/2023 - 12:14:11
+[15/8/2023-12:14:11] - Midleware file. Level: info GET en /users/login - at 15/8/2023 - 12:14:11
+[15/8/2023-12:14:11] - Midleware file. Level: info GET en /js/loginjwt.js - at 15/8/2023 - 12:14:11

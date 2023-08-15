@@ -7,7 +7,7 @@
           <tr>
             <th>Name</th>
             <th>Email</th>
-            <th>Age</th>
+            <th>Roll</th>
             <th>Status</th>
             <th>Last Connection</th>
           </tr>
@@ -20,9 +20,14 @@
             {{else}}
           <tr>
             {{/if}}
+            {{#if this.deleted}}
+          <tr class="bg-danger fw-bold bg-opacity-50">
+            {{else}}
+          <tr>
+            {{/if}}
             <td><span class=" mx-2">{{this.name}}</span></td>
             <td><span class=" mx-2">{{this.email}}</span></td>
-            <td><span class=" mx-2">{{this.age}}</span></td>
+            <td><span class=" mx-2">{{this.roll}}</span></td>
             <td><span class=" mx-2">{{this.status}}</span></td>
             <td><span class=" mx-2">{{this.last_connection}}</span>
             </td>

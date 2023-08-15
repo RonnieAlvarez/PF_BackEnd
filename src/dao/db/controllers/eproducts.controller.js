@@ -119,7 +119,7 @@ export async function deleteRealProduct(req, res) {
   try {
     let user = new UserDto(req.user);
     const id = parseInt(req.query.pid);
-    await ProductService.deleteRealProduct(id);
+    await ProductService.deleteRealProduct(id, user, req, res);
     let products = await ProductService.getAllProducts();
     let canaddproducts = null;
     if (user.roll === "ADMIN") canaddproducts = true;

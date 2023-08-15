@@ -272,8 +272,7 @@ function validarPassword(password) {
  */
 export async function toggleRoll(req, res) {
   try {
-    let { email } = req.params;
-    email = email.slice(1, email.length);
+    let { email } = req.user;
     let user = await UserModel.findOne({ email: email });
     if (user.status === false) {
       return res.status(400).render("nopage", { messagedanger: `User not UpLoaded Documents and can not change the roll !! `, user: req.user });
@@ -332,9 +331,9 @@ export async function getAllUsers(req, res) {
   }
 }
 
-export async function eraseUsers(req, res) {
+export async function eraseUsers(req, res, fechaseleccionada) {
   try {
-    let usersDeleted = await UserService.deleteInactiveUsers(req, res);
+    let usersDeleted = await UserService.deleteInactiveUsers(req, res, fechaseleccionada);
     return usersDeleted;
   } catch (error) {
     return res.render("nopage", { messagedanger: `${error.message}`, user: req.user });

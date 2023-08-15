@@ -1,3 +1,4 @@
+import { sendEmails } from "../../../utils.js";
 import { ProductModel } from "../models/ecommerce.model.js";
 import { faker } from "@faker-js/faker";
 
@@ -187,12 +188,14 @@ export async function deleteProduct(pid) {
 /**
  * This function deletes a real product from the database using its ID.
  */
-export async function deleteRealProduct(id, user) {
+export async function deleteRealProduct(id, user, req, res) {
   try {
     if (user.roll == "ADMIN") {
       await ProductModel.findOneAndDelete({ id: id });
     } else if (user.roll == "PREMIUM") {
-      await ProductModel.findOneAndDelete({ id: id, Owner: user.email });
+      const subject = `The Product with the id: ${id} was deleted from products database `;
+      await ProductModel.deleteOne({ id: id, Owner: user.email });
+      sendEmails(req, res, user, subject);
     }
   } catch (error) {
     throw new Error(error.message);

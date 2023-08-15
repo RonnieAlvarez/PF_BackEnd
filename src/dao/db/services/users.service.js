@@ -12,18 +12,18 @@ export async function getAll() {
   return users.map((user) => new UserDto(user));
 }
 
-export async function deleteInactiveUsers(req, res) {
+export async function deleteInactiveUsers(req, res, fechaseleccionada) {
   try {
-    if (req.user.roll == "USER") {
+    if (req.user.roll == "ADMIN") {
       const cutoffDate = new Date();
       cutoffDate.setDate(cutoffDate.getDate() - 2);
-      const listUsersToRemove = await userModel.find({ last_connection: { $lt: cutoffDate } }).lean();
+      const listUsersToRemove = await userModel.find({ last_connection: { $lt: fechaseleccionada } }).lean();
       const subject = "User was deleted from eCommerce shop database for inactivity account";
       for (const user of listUsersToRemove) {
-        sendEmails(user, subject, req, res);
+        sendEmails(req, res, user, subject);
       }
-      await userModel.deleteMany({ last_connection: { $lt: cutoffDate } });
-      return true;
+      await userModel.deleteMany({ last_connection: { $lt: fechaseleccionada } });
+      return res.status(400).render("usersRep", { usersa: listUsersToRemove });
     } else {
       (req, res) => {
         res.status(400).render("nopage", { messagedanger: `User roll cant not delete Users !!` });
@@ -43,7 +43,7 @@ export async function deleteInactiveUser(req, res) {
       cutoffDate.setDate(cutoffDate.getDate() - 2);
       const user = await userModel.findOne({ email: email }).lean();
       const subject = "User was deleted from eCommerce shop database for inactivity account";
-      sendEmails(user, subject, req, res);
+      sendEmails(req, res, user, subject);
       try {
         await userModel.deleteOne({ email: email });
       } catch (error) {
