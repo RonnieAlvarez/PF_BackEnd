@@ -298,6 +298,18 @@ export async function toggleRoll(req, res) {
   }
 }
 
+/**
+ * The above function is an asynchronous function that handles the logout functionality by clearing
+ * session data, cookies, and redirecting the user to the login page.
+ * @param req - The `req` parameter is an object that represents the HTTP request made by the client.
+ * It contains information such as the request headers, request body, request method, request URL, and
+ * other relevant data.
+ * @param res - The "res" parameter is the response object that is used to send the response back to
+ * the client. It contains methods and properties that allow you to set headers, cookies, and send the
+ * response data.
+ * @returns a response to the client. The response can be a redirect to the "/users/login" page if the
+ * logout process is successful, or an error message if there is an error during the logout process.
+ */
 export async function funlogout(req, res) {
   try {
     let randomNumberToAppend = Math.floor(Math.random() * 1000 + 1).toString();
@@ -322,6 +334,17 @@ export async function funlogout(req, res) {
   }
 }
 
+/**
+ * The function `getAllUsers` retrieves a list of all users and returns it, or renders an error page if
+ * an error occurs.
+ * @param req - The `req` parameter is the request object that contains information about the incoming
+ * HTTP request, such as the request headers, request body, and request parameters.
+ * @param res - The `res` parameter is the response object that represents the HTTP response that will
+ * be sent back to the client. It is used to send the response data, set response headers, and handle
+ * any errors that occur during the request processing.
+ * @returns the `userList` if there are no errors. If there is an error, it will render a "nopage" view
+ * with a danger message containing the error message and the `req.user` object.
+ */
 export async function getAllUsers(req, res) {
   try {
     const userList = await UserService.getAll();
@@ -331,6 +354,20 @@ export async function getAllUsers(req, res) {
   }
 }
 
+/**
+ * The function `eraseUsers` is an asynchronous function that deletes inactive users and returns the
+ * number of users deleted.
+ * @param req - The `req` parameter is the request object, which contains information about the HTTP
+ * request made by the client.
+ * @param res - The "res" parameter is the response object that represents the HTTP response that will
+ * be sent back to the client. It is used to send the response data, such as the HTML content or JSON
+ * data.
+ * @param fechaseleccionada - The parameter "fechaseleccionada" is likely a selected date that is being
+ * passed to the function. It could be used as a filter to delete inactive users based on a specific
+ * date.
+ * @returns the value of the variable `usersDeleted` if the `try` block is successfully executed. If an
+ * error occurs, it will render a "nopage" view with an error message.
+ */
 export async function eraseUsers(req, res, fechaseleccionada) {
   try {
     let usersDeleted = await UserService.deleteInactiveUsers(req, res, fechaseleccionada);
@@ -340,6 +377,19 @@ export async function eraseUsers(req, res, fechaseleccionada) {
   }
 }
 
+/**
+ * The function `eraseUser` is an asynchronous function that attempts to delete an inactive user using
+ * the `deleteInactiveUser` method from the `UserService` module, and if an error occurs, it renders a
+ * "nopage" view with an error message.
+ * @param req - The `req` parameter is the request object, which contains information about the
+ * incoming HTTP request from the client. It includes details such as the request method, URL, headers,
+ * and body.
+ * @param res - The "res" parameter is the response object that is used to send the response back to
+ * the client. It contains methods and properties that allow you to control the response, such as
+ * setting headers, status codes, and sending data back to the client.
+ * @returns the result of calling the `deleteInactiveUser` function from the `UserService` module with
+ * the `req` and `res` parameters.
+ */
 export async function eraseUser(req, res) {
   try {
     return await UserService.deleteInactiveUser(req, res);
@@ -348,6 +398,17 @@ export async function eraseUser(req, res) {
   }
 }
 
+/**
+ * The uldocs function is an asynchronous function that handles the uploading of document files and
+ * updates the user's document list in the database.
+ * @param req - The `req` parameter is the request object that contains information about the HTTP
+ * request made by the client. It includes data such as headers, query parameters, request body, and
+ * files uploaded by the client.
+ * @param res - The `res` parameter is the response object that is used to send the response back to
+ * the client. It contains methods and properties that allow you to control the response, such as
+ * setting the status code, rendering a view, or sending data back to the client.
+ * @returns a response with a status code and rendering a template with a message and user data.
+ */
 export async function uldocs(req, res) {
   try {
     if (!req.files) {
@@ -368,6 +429,18 @@ export async function uldocs(req, res) {
   }
 }
 
+/**
+ * The ulimgs function is an asynchronous function that handles the uploading of a user's profile image
+ * and saves the image file path to the user's documents array in the database.
+ * @param req - The `req` parameter is the request object that contains information about the HTTP
+ * request made by the client. It includes details such as the request headers, request body, request
+ * method, URL, and more.
+ * @param res - The `res` parameter is the response object that is used to send a response back to the
+ * client. It contains methods and properties that allow you to control the response, such as setting
+ * the status code, headers, and sending the response body.
+ * @returns a response with a status code and rendering a view with a message and user data. The
+ * specific response and view being returned depend on the conditions in the try-catch block.
+ */
 export async function ulimgs(req, res) {
   try {
     if (!req.file) {
@@ -385,6 +458,17 @@ export async function ulimgs(req, res) {
   }
 }
 
+/**
+ * The ulproimgs function is an asynchronous function that handles the uploading of product images and
+ * saves the file paths in the user's documents array.
+ * @param req - The `req` parameter is the request object that contains information about the HTTP
+ * request made by the client. It includes data such as the request headers, request parameters,
+ * request body, etc.
+ * @param res - The `res` parameter is the response object that is used to send a response back to the
+ * client. It contains methods and properties that allow you to control the response, such as setting
+ * the status code, headers, and sending data back to the client.
+ * @returns a response with a status code and rendering a template with a message and user data.
+ */
 export async function ulproimgs(req, res) {
   try {
     if (!req.files) {

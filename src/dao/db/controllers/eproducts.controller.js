@@ -191,6 +191,17 @@ export async function deleteProduct(req, res) {
     });
   }
 }
+/**
+ * The function getAllProducts retrieves all products and sends them as a response, or returns an error
+ * message if there is an issue.
+ * @param req - The `req` parameter is the request object that contains information about the incoming
+ * HTTP request, such as headers, query parameters, and request body.
+ * @param res - The `res` parameter is the response object that is used to send the response back to
+ * the client. It contains methods and properties that allow you to control the response, such as
+ * setting the status code and sending data back to the client.
+ * @returns a response with a status code of 201 (Created) and a JSON object containing the "products"
+ * property, which holds the value of the "products" variable.
+ */
 export async function getAllProducts(req, res) {
   try {
     let user = new UserDto(req.user);

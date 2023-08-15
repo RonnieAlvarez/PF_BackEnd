@@ -13,5 +13,3 @@ const options = {
 };
 
 export const { swaggerSpecs } = swaggerJsdoc(options);
-
-//module.exports = { swaggerSpecs };

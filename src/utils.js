@@ -89,6 +89,18 @@ export const authorization = (roll) => {
   };
 };
 
+/**
+ * The function `sendEmails` is an asynchronous function that sends an email to a user with a specified
+ * subject.
+ * @param req - The `req` parameter is the request object that contains information about the HTTP
+ * request being made, such as the headers, body, and URL parameters.
+ * @param res - The `res` parameter is the response object that is used to send the response back to
+ * the client. It is typically used to set the status code and render a view template with data.
+ * @param user - The `user` parameter is an object that represents the user to whom the email will be
+ * sent. It should have an `email` property that contains the email address of the user.
+ * @param subject - The subject of the email that will be sent.
+ * @returns a promise.
+ */
 export async function sendEmails(req, res, user, subject) {
   try {
     process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";

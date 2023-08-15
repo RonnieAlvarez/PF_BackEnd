@@ -79,11 +79,12 @@ const sessionMiddleware = session({
 app.use(sessionMiddleware);
 app.use(cookieParser(`${config.cookiePassword}`));
 
+//Midleware isAuthenticated
 const isAuthenticated = (req, res, next) => {
   if (req.session.isLogged) {
-    next(); // El usuario está autenticado, continuar con la siguiente función de middleware
+    next();
   } else {
-    res.status(401).send("User not ahthenticated !!"); // El usuario no está autenticado, enviar respuesta de error 401
+    res.status(401).send("User not ahthenticated !!");
   }
 };
 //Middleware Passport

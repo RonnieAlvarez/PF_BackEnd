@@ -33,10 +33,10 @@ const devLogger = winston.createLogger({
   ),
   levels: customLevelsOptions.levels,
   transports: [
-    new winston.transports.Console({
-      level: "info",
-      format: winston.format.combine(winston.format.colorize({ colors: customLevelsOptions.colors }), winston.format.simple()),
-    }),
+    //    new winston.transports.Console({
+    //      level: "info",
+    //      format: winston.format.combine(winston.format.colorize({ colors: customLevelsOptions.colors }), winston.format.simple()),
+    //    }),
     new winston.transports.File({
       maxsize: 1024 * 1024,
       maxFiles: 3,
@@ -50,9 +50,9 @@ const devLogger = winston.createLogger({
 const prodLogger = winston.createLogger({
   //Declare transports:
   transports: [
-    new winston.transports.Console({
-      level: "http",
-    }),
+    //    new winston.transports.Console({
+    //      level: "http",
+    //    }),
     new winston.transports.File({
       filename: "./errors.log",
       level: "warning",
